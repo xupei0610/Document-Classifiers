@@ -1,0 +1,1731 @@
+Parameters:
+  Classifier:      Ridge Regression
+  Input data file: data-files/20newsgroups_word.ijv
+  Training data:   data-files/20newsgroups.train
+  Test data:       data-files/20newsgroups.test
+  Class. data:     data-files/20newsgroups.class
+  Token data:      data-files/20newsgroups_word.clabel
+  Freq. represent: TF-IDF
+  Output file:     log/result_ridge_word_TFIDF_02-37-37_12-15-2016
+  Val.Train. Data: data-files/20newsgroups_ridge.train
+  Val. Test Data:  data-files/20newsgroups_ridge.val
+  Conv. Tolerance: 0.01
+  Max Iteration:   25
+
+Loading data files...
+Choosing regularization parameter through testing validation data...
+Regularization parameter: 0.01 (1/6)
+Begining iteration...
+  Generating Binary Classifier #1
+  Iteration: 1. Squared Error: 5.198879e+02. Time Taken: 0.250220s
+  Iteration: 2. Squared Error: 2.152496e+02. Time Taken: 0.237893s
+  Iteration: 3. Squared Error: 7.159188e+01. Time Taken: 0.230529s
+  Iteration: 4. Squared Error: 3.285383e+01. Time Taken: 0.254750s
+  Iteration: 5. Squared Error: 1.794648e+01. Time Taken: 0.226061s
+  Iteration: 6. Squared Error: 1.070252e+01. Time Taken: 0.231496s
+  Iteration: 7. Squared Error: 6.924143e+00. Time Taken: 0.232696s
+  Iteration: 8. Squared Error: 4.716815e+00. Time Taken: 0.231405s
+  Iteration: 9. Squared Error: 3.337430e+00. Time Taken: 0.232174s
+  Iteration: 10. Squared Error: 2.496005e+00. Time Taken: 0.229546s
+  Iteration: 11. Squared Error: 1.850895e+00. Time Taken: 0.231725s
+  Iteration: 12. Squared Error: 1.408856e+00. Time Taken: 0.227129s
+  Iteration: 13. Squared Error: 1.078334e+00. Time Taken: 0.223744s
+  Iteration: 14. Squared Error: 8.359746e-01. Time Taken: 0.226340s
+  Iteration: 15. Squared Error: 6.707772e-01. Time Taken: 0.234109s
+  Iteration: 16. Squared Error: 5.560983e-01. Time Taken: 0.228818s
+  Iteration: 17. Squared Error: 4.399677e-01. Time Taken: 0.232155s
+  Iteration: 18. Squared Error: 3.548911e-01. Time Taken: 0.221823s
+  Iteration: 19. Squared Error: 2.902216e-01. Time Taken: 0.235013s
+  Iteration: 20. Squared Error: 2.396651e-01. Time Taken: 0.257080s
+  Iteration: 21. Squared Error: 1.993108e-01. Time Taken: 0.228329s
+  Iteration: 22. Squared Error: 1.666208e-01. Time Taken: 0.231181s
+  Iteration: 23. Squared Error: 1.398854e-01. Time Taken: 0.277728s
+  Iteration: 24. Squared Error: 1.172913e-01. Time Taken: 0.266673s
+  Iteration: 25. Squared Error: 9.902249e-02. Time Taken: 0.242611s
+  Generating Binary Classifier #2
+  Iteration: 1. Squared Error: 1.217404e+03. Time Taken: 0.241309s
+  Iteration: 2. Squared Error: 5.259368e+02. Time Taken: 0.237624s
+  Iteration: 3. Squared Error: 1.369386e+02. Time Taken: 0.250115s
+  Iteration: 4. Squared Error: 5.338557e+01. Time Taken: 0.277597s
+  Iteration: 5. Squared Error: 2.775978e+01. Time Taken: 0.271993s
+  Iteration: 6. Squared Error: 1.772650e+01. Time Taken: 0.253968s
+  Iteration: 7. Squared Error: 1.161555e+01. Time Taken: 0.247879s
+  Iteration: 8. Squared Error: 7.753526e+00. Time Taken: 0.246933s
+  Iteration: 9. Squared Error: 5.108213e+00. Time Taken: 0.261943s
+  Iteration: 10. Squared Error: 3.732090e+00. Time Taken: 0.247113s
+  Iteration: 11. Squared Error: 2.720118e+00. Time Taken: 0.250421s
+  Iteration: 12. Squared Error: 2.012422e+00. Time Taken: 0.248177s
+  Iteration: 13. Squared Error: 1.553071e+00. Time Taken: 0.261953s
+  Iteration: 14. Squared Error: 1.186782e+00. Time Taken: 0.260682s
+  Iteration: 15. Squared Error: 9.273592e-01. Time Taken: 0.281533s
+  Iteration: 16. Squared Error: 7.352354e-01. Time Taken: 0.247585s
+  Iteration: 17. Squared Error: 5.883391e-01. Time Taken: 0.246339s
+  Iteration: 18. Squared Error: 4.714248e-01. Time Taken: 0.261212s
+  Iteration: 19. Squared Error: 3.741304e-01. Time Taken: 0.313778s
+  Iteration: 20. Squared Error: 2.908554e-01. Time Taken: 0.338122s
+  Iteration: 21. Squared Error: 2.325139e-01. Time Taken: 0.264074s
+  Iteration: 22. Squared Error: 1.851693e-01. Time Taken: 0.254971s
+  Iteration: 23. Squared Error: 1.496043e-01. Time Taken: 0.285064s
+  Iteration: 24. Squared Error: 1.231813e-01. Time Taken: 0.307330s
+  Iteration: 25. Squared Error: 1.017539e-01. Time Taken: 0.311889s
+  Generating Binary Classifier #3
+  Iteration: 1. Squared Error: 4.533802e+02. Time Taken: 0.297295s
+  Iteration: 2. Squared Error: 2.781615e+02. Time Taken: 0.278000s
+  Iteration: 3. Squared Error: 5.526065e+01. Time Taken: 0.274945s
+  Iteration: 4. Squared Error: 3.422963e+01. Time Taken: 0.276297s
+  Iteration: 5. Squared Error: 1.622686e+01. Time Taken: 0.267219s
+  Iteration: 6. Squared Error: 1.034815e+01. Time Taken: 0.256777s
+  Iteration: 7. Squared Error: 6.736750e+00. Time Taken: 0.263670s
+  Iteration: 8. Squared Error: 4.268104e+00. Time Taken: 0.262606s
+  Iteration: 9. Squared Error: 2.844874e+00. Time Taken: 0.251976s
+  Iteration: 10. Squared Error: 1.976252e+00. Time Taken: 0.285877s
+  Iteration: 11. Squared Error: 1.395765e+00. Time Taken: 0.255348s
+  Iteration: 12. Squared Error: 1.014473e+00. Time Taken: 0.241324s
+  Iteration: 13. Squared Error: 7.649846e-01. Time Taken: 0.265829s
+  Iteration: 14. Squared Error: 6.082817e-01. Time Taken: 0.259057s
+  Iteration: 15. Squared Error: 4.662893e-01. Time Taken: 0.241291s
+  Iteration: 16. Squared Error: 3.646544e-01. Time Taken: 0.237702s
+  Iteration: 17. Squared Error: 2.891190e-01. Time Taken: 0.241880s
+  Iteration: 18. Squared Error: 2.340315e-01. Time Taken: 0.238842s
+  Iteration: 19. Squared Error: 1.890416e-01. Time Taken: 0.235016s
+  Iteration: 20. Squared Error: 1.540252e-01. Time Taken: 0.241099s
+  Iteration: 21. Squared Error: 1.266948e-01. Time Taken: 0.237588s
+  Iteration: 22. Squared Error: 1.051409e-01. Time Taken: 0.230240s
+  Iteration: 23. Squared Error: 8.797745e-02. Time Taken: 0.228657s
+  Iteration: 24. Squared Error: 7.414491e-02. Time Taken: 0.229423s
+  Iteration: 25. Squared Error: 6.293248e-02. Time Taken: 0.225091s
+  Generating Binary Classifier #4
+  Iteration: 1. Squared Error: 1.219459e+03. Time Taken: 0.227176s
+  Iteration: 2. Squared Error: 6.295108e+02. Time Taken: 0.228949s
+  Iteration: 3. Squared Error: 2.136472e+02. Time Taken: 0.226283s
+  Iteration: 4. Squared Error: 9.155464e+01. Time Taken: 0.304893s
+  Iteration: 5. Squared Error: 4.825574e+01. Time Taken: 0.240511s
+  Iteration: 6. Squared Error: 3.499422e+01. Time Taken: 0.261600s
+  Iteration: 7. Squared Error: 2.852675e+01. Time Taken: 0.250445s
+  Iteration: 8. Squared Error: 1.898814e+01. Time Taken: 0.235359s
+  Iteration: 9. Squared Error: 1.230750e+01. Time Taken: 0.231325s
+  Iteration: 10. Squared Error: 8.712758e+00. Time Taken: 0.234019s
+  Iteration: 11. Squared Error: 6.616187e+00. Time Taken: 0.231814s
+  Iteration: 12. Squared Error: 4.783983e+00. Time Taken: 0.239010s
+  Iteration: 13. Squared Error: 3.621020e+00. Time Taken: 0.242302s
+  Iteration: 14. Squared Error: 2.774309e+00. Time Taken: 0.253187s
+  Iteration: 15. Squared Error: 2.144672e+00. Time Taken: 0.241242s
+  Iteration: 16. Squared Error: 1.686870e+00. Time Taken: 0.252246s
+  Iteration: 17. Squared Error: 1.338676e+00. Time Taken: 0.237641s
+  Iteration: 18. Squared Error: 1.079826e+00. Time Taken: 0.238333s
+  Iteration: 19. Squared Error: 8.671395e-01. Time Taken: 0.240034s
+  Iteration: 20. Squared Error: 7.208437e-01. Time Taken: 0.246916s
+  Iteration: 21. Squared Error: 5.940212e-01. Time Taken: 0.255128s
+  Iteration: 22. Squared Error: 4.907824e-01. Time Taken: 0.240588s
+  Iteration: 23. Squared Error: 4.108136e-01. Time Taken: 0.252364s
+  Iteration: 24. Squared Error: 3.465730e-01. Time Taken: 0.241506s
+  Iteration: 25. Squared Error: 2.940786e-01. Time Taken: 0.242152s
+  Generating Binary Classifier #5
+  Iteration: 1. Squared Error: 5.814865e+02. Time Taken: 0.243151s
+  Iteration: 2. Squared Error: 2.875270e+02. Time Taken: 0.242953s
+  Iteration: 3. Squared Error: 8.108328e+01. Time Taken: 0.241602s
+  Iteration: 4. Squared Error: 3.405918e+01. Time Taken: 0.241466s
+  Iteration: 5. Squared Error: 1.718383e+01. Time Taken: 0.265427s
+  Iteration: 6. Squared Error: 1.296387e+01. Time Taken: 0.252951s
+  Iteration: 7. Squared Error: 7.531848e+00. Time Taken: 0.234579s
+  Iteration: 8. Squared Error: 4.635221e+00. Time Taken: 0.236949s
+  Iteration: 9. Squared Error: 3.122747e+00. Time Taken: 0.234917s
+  Iteration: 10. Squared Error: 2.153368e+00. Time Taken: 0.244860s
+  Iteration: 11. Squared Error: 1.374607e+00. Time Taken: 0.246990s
+  Iteration: 12. Squared Error: 9.217345e-01. Time Taken: 0.243102s
+  Iteration: 13. Squared Error: 6.383709e-01. Time Taken: 0.237910s
+  Iteration: 14. Squared Error: 4.830636e-01. Time Taken: 0.239403s
+  Iteration: 15. Squared Error: 3.474914e-01. Time Taken: 0.225034s
+  Iteration: 16. Squared Error: 2.604378e-01. Time Taken: 0.228792s
+  Iteration: 17. Squared Error: 2.006478e-01. Time Taken: 0.228755s
+  Iteration: 18. Squared Error: 1.579529e-01. Time Taken: 0.230932s
+  Iteration: 19. Squared Error: 1.268618e-01. Time Taken: 0.230148s
+  Iteration: 20. Squared Error: 1.034828e-01. Time Taken: 0.280716s
+  Iteration: 21. Squared Error: 8.512192e-02. Time Taken: 0.238088s
+  Iteration: 22. Squared Error: 7.025346e-02. Time Taken: 0.235775s
+  Iteration: 23. Squared Error: 5.808757e-02. Time Taken: 0.231835s
+  Iteration: 24. Squared Error: 4.820684e-02. Time Taken: 0.231399s
+  Iteration: 25. Squared Error: 4.018641e-02. Time Taken: 0.234324s
+  Generating Binary Classifier #6
+  Iteration: 1. Squared Error: 5.758047e+02. Time Taken: 0.227281s
+  Iteration: 2. Squared Error: 2.856617e+02. Time Taken: 0.233746s
+  Iteration: 3. Squared Error: 5.047595e+01. Time Taken: 0.228091s
+  Iteration: 4. Squared Error: 2.210750e+01. Time Taken: 0.249717s
+  Iteration: 5. Squared Error: 8.698130e+00. Time Taken: 0.259677s
+  Iteration: 6. Squared Error: 5.309470e+00. Time Taken: 0.237508s
+  Iteration: 7. Squared Error: 3.107254e+00. Time Taken: 0.247671s
+  Iteration: 8. Squared Error: 1.901404e+00. Time Taken: 0.247509s
+  Iteration: 9. Squared Error: 1.241076e+00. Time Taken: 0.274754s
+  Iteration: 10. Squared Error: 8.457370e-01. Time Taken: 0.260797s
+  Iteration: 11. Squared Error: 6.119171e-01. Time Taken: 0.260123s
+  Iteration: 12. Squared Error: 4.223927e-01. Time Taken: 0.250540s
+  Iteration: 13. Squared Error: 3.162757e-01. Time Taken: 0.257700s
+  Iteration: 14. Squared Error: 2.413303e-01. Time Taken: 0.296726s
+  Iteration: 15. Squared Error: 1.860303e-01. Time Taken: 0.330621s
+  Iteration: 16. Squared Error: 1.473773e-01. Time Taken: 0.339861s
+  Iteration: 17. Squared Error: 1.193154e-01. Time Taken: 0.292066s
+  Iteration: 18. Squared Error: 9.782501e-02. Time Taken: 0.273009s
+  Iteration: 19. Squared Error: 8.087200e-02. Time Taken: 0.268206s
+  Iteration: 20. Squared Error: 6.716158e-02. Time Taken: 0.279836s
+  Iteration: 21. Squared Error: 5.602856e-02. Time Taken: 0.268118s
+  Iteration: 22. Squared Error: 4.693930e-02. Time Taken: 0.257022s
+  Iteration: 23. Squared Error: 3.948717e-02. Time Taken: 0.294444s
+  Iteration: 24. Squared Error: 3.334724e-02. Time Taken: 0.255925s
+  Iteration: 25. Squared Error: 2.824352e-02. Time Taken: 0.263899s
+  Generating Binary Classifier #7
+  Iteration: 1. Squared Error: 2.556391e+02. Time Taken: 0.245915s
+  Iteration: 2. Squared Error: 1.267174e+02. Time Taken: 0.255815s
+  Iteration: 3. Squared Error: 4.374164e+01. Time Taken: 0.259103s
+  Iteration: 4. Squared Error: 1.662357e+01. Time Taken: 0.239918s
+  Iteration: 5. Squared Error: 1.029266e+01. Time Taken: 0.238042s
+  Iteration: 6. Squared Error: 6.003536e+00. Time Taken: 0.234191s
+  Iteration: 7. Squared Error: 3.497533e+00. Time Taken: 0.239456s
+  Iteration: 8. Squared Error: 2.159306e+00. Time Taken: 0.234873s
+  Iteration: 9. Squared Error: 1.532775e+00. Time Taken: 0.249633s
+  Iteration: 10. Squared Error: 1.021594e+00. Time Taken: 0.259242s
+  Iteration: 11. Squared Error: 6.831911e-01. Time Taken: 0.234853s
+  Iteration: 12. Squared Error: 4.710997e-01. Time Taken: 0.230853s
+  Iteration: 13. Squared Error: 3.334927e-01. Time Taken: 0.234001s
+  Iteration: 14. Squared Error: 2.424659e-01. Time Taken: 0.232219s
+  Iteration: 15. Squared Error: 1.800455e-01. Time Taken: 0.233467s
+  Iteration: 16. Squared Error: 1.356395e-01. Time Taken: 0.231322s
+  Iteration: 17. Squared Error: 1.037057e-01. Time Taken: 0.232731s
+  Iteration: 18. Squared Error: 8.102762e-02. Time Taken: 0.285183s
+  Iteration: 19. Squared Error: 6.505699e-02. Time Taken: 0.256278s
+  Iteration: 20. Squared Error: 5.356921e-02. Time Taken: 0.240519s
+  Iteration: 21. Squared Error: 4.486949e-02. Time Taken: 0.239314s
+  Iteration: 22. Squared Error: 3.789564e-02. Time Taken: 0.241443s
+  Iteration: 23. Squared Error: 3.208502e-02. Time Taken: 0.243434s
+  Iteration: 24. Squared Error: 2.715815e-02. Time Taken: 0.244717s
+  Iteration: 25. Squared Error: 2.295754e-02. Time Taken: 0.239322s
+  Generating Binary Classifier #8
+  Iteration: 1. Squared Error: 1.303626e+03. Time Taken: 0.234762s
+  Iteration: 2. Squared Error: 6.116912e+02. Time Taken: 0.237040s
+  Iteration: 3. Squared Error: 1.456252e+02. Time Taken: 0.247490s
+  Iteration: 4. Squared Error: 6.272403e+01. Time Taken: 0.242488s
+  Iteration: 5. Squared Error: 3.080271e+01. Time Taken: 0.234521s
+  Iteration: 6. Squared Error: 1.912076e+01. Time Taken: 0.257912s
+  Iteration: 7. Squared Error: 1.217483e+01. Time Taken: 0.237985s
+  Iteration: 8. Squared Error: 8.176723e+00. Time Taken: 0.294472s
+  Iteration: 9. Squared Error: 6.166669e+00. Time Taken: 0.243744s
+  Iteration: 10. Squared Error: 4.542863e+00. Time Taken: 0.244412s
+  Iteration: 11. Squared Error: 3.400785e+00. Time Taken: 0.248062s
+  Iteration: 12. Squared Error: 2.612051e+00. Time Taken: 0.274015s
+  Iteration: 13. Squared Error: 1.998615e+00. Time Taken: 0.240337s
+  Iteration: 14. Squared Error: 1.590545e+00. Time Taken: 0.260532s
+  Iteration: 15. Squared Error: 1.265447e+00. Time Taken: 0.278825s
+  Iteration: 16. Squared Error: 1.029293e+00. Time Taken: 0.331059s
+  Iteration: 17. Squared Error: 8.634450e-01. Time Taken: 0.292758s
+  Iteration: 18. Squared Error: 7.132607e-01. Time Taken: 0.293450s
+  Iteration: 19. Squared Error: 6.028345e-01. Time Taken: 0.369586s
+  Iteration: 20. Squared Error: 5.125240e-01. Time Taken: 0.280194s
+  Iteration: 21. Squared Error: 4.373909e-01. Time Taken: 0.277312s
+  Iteration: 22. Squared Error: 3.776939e-01. Time Taken: 0.275803s
+  Iteration: 23. Squared Error: 3.275191e-01. Time Taken: 0.312634s
+  Iteration: 24. Squared Error: 2.867552e-01. Time Taken: 0.262578s
+  Iteration: 25. Squared Error: 2.521559e-01. Time Taken: 0.272688s
+  Generating Binary Classifier #9
+  Iteration: 1. Squared Error: 6.195934e+02. Time Taken: 0.265067s
+  Iteration: 2. Squared Error: 2.811404e+02. Time Taken: 0.269725s
+  Iteration: 3. Squared Error: 9.274754e+01. Time Taken: 0.258868s
+  Iteration: 4. Squared Error: 3.381585e+01. Time Taken: 0.291342s
+  Iteration: 5. Squared Error: 1.692694e+01. Time Taken: 0.260563s
+  Iteration: 6. Squared Error: 9.398189e+00. Time Taken: 0.302569s
+  Iteration: 7. Squared Error: 6.164001e+00. Time Taken: 0.260417s
+  Iteration: 8. Squared Error: 4.008549e+00. Time Taken: 0.278436s
+  Iteration: 9. Squared Error: 2.877058e+00. Time Taken: 0.260039s
+  Iteration: 10. Squared Error: 2.124842e+00. Time Taken: 0.260682s
+  Iteration: 11. Squared Error: 1.498273e+00. Time Taken: 0.256877s
+  Iteration: 12. Squared Error: 1.120940e+00. Time Taken: 0.261386s
+  Iteration: 13. Squared Error: 8.473300e-01. Time Taken: 0.247487s
+  Iteration: 14. Squared Error: 6.832917e-01. Time Taken: 0.251286s
+  Iteration: 15. Squared Error: 5.176198e-01. Time Taken: 0.243184s
+  Iteration: 16. Squared Error: 4.050488e-01. Time Taken: 0.251042s
+  Iteration: 17. Squared Error: 3.320967e-01. Time Taken: 0.282000s
+  Iteration: 18. Squared Error: 2.630756e-01. Time Taken: 0.268918s
+  Iteration: 19. Squared Error: 2.090194e-01. Time Taken: 0.272711s
+  Iteration: 20. Squared Error: 1.689850e-01. Time Taken: 0.245615s
+  Iteration: 21. Squared Error: 1.381572e-01. Time Taken: 0.251804s
+  Iteration: 22. Squared Error: 1.152382e-01. Time Taken: 0.238395s
+  Iteration: 23. Squared Error: 9.882935e-02. Time Taken: 0.242035s
+  Iteration: 24. Squared Error: 8.400610e-02. Time Taken: 0.254124s
+  Iteration: 25. Squared Error: 7.170298e-02. Time Taken: 0.249446s
+  Generating Binary Classifier #10
+  Iteration: 1. Squared Error: 1.360970e+03. Time Taken: 0.243937s
+  Iteration: 2. Squared Error: 4.532969e+02. Time Taken: 0.242490s
+  Iteration: 3. Squared Error: 1.512175e+02. Time Taken: 0.248770s
+  Iteration: 4. Squared Error: 6.270635e+01. Time Taken: 0.251751s
+  Iteration: 5. Squared Error: 3.058388e+01. Time Taken: 0.242328s
+  Iteration: 6. Squared Error: 1.677653e+01. Time Taken: 0.293715s
+  Iteration: 7. Squared Error: 1.022293e+01. Time Taken: 0.279520s
+  Iteration: 8. Squared Error: 6.477092e+00. Time Taken: 0.260821s
+  Iteration: 9. Squared Error: 4.325355e+00. Time Taken: 0.266913s
+  Iteration: 10. Squared Error: 3.118056e+00. Time Taken: 0.250402s
+  Iteration: 11. Squared Error: 2.318748e+00. Time Taken: 0.244296s
+  Iteration: 12. Squared Error: 1.776025e+00. Time Taken: 0.260200s
+  Iteration: 13. Squared Error: 1.394946e+00. Time Taken: 0.250092s
+  Iteration: 14. Squared Error: 1.114261e+00. Time Taken: 0.251844s
+  Iteration: 15. Squared Error: 9.069431e-01. Time Taken: 0.258564s
+  Iteration: 16. Squared Error: 7.652651e-01. Time Taken: 0.257826s
+  Iteration: 17. Squared Error: 6.490383e-01. Time Taken: 0.255408s
+  Iteration: 18. Squared Error: 5.436753e-01. Time Taken: 0.244577s
+  Iteration: 19. Squared Error: 4.694298e-01. Time Taken: 0.250165s
+  Iteration: 20. Squared Error: 4.059632e-01. Time Taken: 0.320309s
+  Iteration: 21. Squared Error: 3.547660e-01. Time Taken: 0.295555s
+  Iteration: 22. Squared Error: 3.136146e-01. Time Taken: 0.263887s
+  Iteration: 23. Squared Error: 2.798403e-01. Time Taken: 0.260086s
+  Iteration: 24. Squared Error: 2.526141e-01. Time Taken: 0.280185s
+  Iteration: 25. Squared Error: 2.331148e-01. Time Taken: 0.260285s
+  Generating Binary Classifier #11
+  Iteration: 1. Squared Error: 5.135438e+02. Time Taken: 0.270408s
+  Iteration: 2. Squared Error: 2.405965e+02. Time Taken: 0.267761s
+  Iteration: 3. Squared Error: 8.778452e+01. Time Taken: 0.367028s
+  Iteration: 4. Squared Error: 3.545037e+01. Time Taken: 0.334437s
+  Iteration: 5. Squared Error: 1.603698e+01. Time Taken: 0.339017s
+  Iteration: 6. Squared Error: 9.060769e+00. Time Taken: 0.311062s
+  Iteration: 7. Squared Error: 6.586641e+00. Time Taken: 0.272601s
+  Iteration: 8. Squared Error: 4.214886e+00. Time Taken: 0.271974s
+  Iteration: 9. Squared Error: 2.843797e+00. Time Taken: 0.281474s
+  Iteration: 10. Squared Error: 1.986829e+00. Time Taken: 0.297337s
+  Iteration: 11. Squared Error: 1.450109e+00. Time Taken: 0.273295s
+  Iteration: 12. Squared Error: 1.074759e+00. Time Taken: 0.274943s
+  Iteration: 13. Squared Error: 9.657861e-01. Time Taken: 0.271878s
+  Iteration: 14. Squared Error: 7.073168e-01. Time Taken: 0.283608s
+  Iteration: 15. Squared Error: 5.383933e-01. Time Taken: 0.280757s
+  Iteration: 16. Squared Error: 4.260876e-01. Time Taken: 0.273333s
+  Iteration: 17. Squared Error: 3.488583e-01. Time Taken: 0.258023s
+  Iteration: 18. Squared Error: 2.837569e-01. Time Taken: 0.259691s
+  Iteration: 19. Squared Error: 2.325637e-01. Time Taken: 0.266550s
+  Iteration: 20. Squared Error: 1.920744e-01. Time Taken: 0.295090s
+  Iteration: 21. Squared Error: 1.606831e-01. Time Taken: 0.326954s
+  Iteration: 22. Squared Error: 1.372736e-01. Time Taken: 0.288129s
+  Iteration: 23. Squared Error: 1.184482e-01. Time Taken: 0.259330s
+  Iteration: 24. Squared Error: 1.036281e-01. Time Taken: 0.266830s
+  Iteration: 25. Squared Error: 9.172849e-02. Time Taken: 0.279227s
+  Generating Binary Classifier #12
+  Iteration: 1. Squared Error: 1.286566e+03. Time Taken: 0.276425s
+  Iteration: 2. Squared Error: 4.725245e+02. Time Taken: 0.268911s
+  Iteration: 3. Squared Error: 1.407351e+02. Time Taken: 0.277524s
+  Iteration: 4. Squared Error: 5.884522e+01. Time Taken: 0.270766s
+  Iteration: 5. Squared Error: 2.928985e+01. Time Taken: 0.280795s
+  Iteration: 6. Squared Error: 1.825314e+01. Time Taken: 0.265564s
+  Iteration: 7. Squared Error: 1.087951e+01. Time Taken: 0.292467s
+  Iteration: 8. Squared Error: 6.801534e+00. Time Taken: 0.289539s
+  Iteration: 9. Squared Error: 4.497165e+00. Time Taken: 0.311543s
+  Iteration: 10. Squared Error: 2.985850e+00. Time Taken: 0.276973s
+  Iteration: 11. Squared Error: 2.031365e+00. Time Taken: 0.303390s
+  Iteration: 12. Squared Error: 1.464065e+00. Time Taken: 0.288260s
+  Iteration: 13. Squared Error: 1.058920e+00. Time Taken: 0.326162s
+  Iteration: 14. Squared Error: 7.739208e-01. Time Taken: 0.271775s
+  Iteration: 15. Squared Error: 5.744340e-01. Time Taken: 0.280809s
+  Iteration: 16. Squared Error: 4.314858e-01. Time Taken: 0.312105s
+  Iteration: 17. Squared Error: 3.281046e-01. Time Taken: 0.268358s
+  Iteration: 18. Squared Error: 2.529864e-01. Time Taken: 0.261756s
+  Iteration: 19. Squared Error: 1.977065e-01. Time Taken: 0.270703s
+  Iteration: 20. Squared Error: 1.570745e-01. Time Taken: 0.266504s
+  Iteration: 21. Squared Error: 1.267314e-01. Time Taken: 0.251357s
+  Iteration: 22. Squared Error: 1.036418e-01. Time Taken: 0.245972s
+  Generating Binary Classifier #13
+  Iteration: 1. Squared Error: 9.575973e+02. Time Taken: 0.245500s
+  Iteration: 2. Squared Error: 4.786280e+02. Time Taken: 0.241933s
+  Iteration: 3. Squared Error: 1.176473e+02. Time Taken: 0.310214s
+  Iteration: 4. Squared Error: 5.227285e+01. Time Taken: 0.254375s
+  Iteration: 5. Squared Error: 2.490890e+01. Time Taken: 0.246408s
+  Iteration: 6. Squared Error: 1.667085e+01. Time Taken: 0.246267s
+  Iteration: 7. Squared Error: 1.056607e+01. Time Taken: 0.243443s
+  Iteration: 8. Squared Error: 7.253856e+00. Time Taken: 0.247379s
+  Iteration: 9. Squared Error: 5.028027e+00. Time Taken: 0.241002s
+  Iteration: 10. Squared Error: 3.642478e+00. Time Taken: 0.246410s
+  Iteration: 11. Squared Error: 2.928543e+00. Time Taken: 0.266667s
+  Iteration: 12. Squared Error: 2.365063e+00. Time Taken: 0.253839s
+  Iteration: 13. Squared Error: 1.851127e+00. Time Taken: 0.253759s
+  Iteration: 14. Squared Error: 1.472103e+00. Time Taken: 0.286730s
+  Iteration: 15. Squared Error: 1.192122e+00. Time Taken: 0.294437s
+  Iteration: 16. Squared Error: 9.561826e-01. Time Taken: 0.321896s
+  Iteration: 17. Squared Error: 7.676924e-01. Time Taken: 0.326811s
+  Iteration: 18. Squared Error: 6.182773e-01. Time Taken: 0.311976s
+  Iteration: 19. Squared Error: 5.010476e-01. Time Taken: 0.267999s
+  Iteration: 20. Squared Error: 4.138620e-01. Time Taken: 0.276588s
+  Iteration: 21. Squared Error: 3.554314e-01. Time Taken: 0.287492s
+  Iteration: 22. Squared Error: 2.958665e-01. Time Taken: 0.282092s
+  Iteration: 23. Squared Error: 2.484040e-01. Time Taken: 0.268967s
+  Iteration: 24. Squared Error: 2.259981e-01. Time Taken: 0.274430s
+  Iteration: 25. Squared Error: 1.896253e-01. Time Taken: 0.277018s
+  Generating Binary Classifier #14
+  Iteration: 1. Squared Error: 3.508036e+02. Time Taken: 0.269983s
+  Iteration: 2. Squared Error: 2.240715e+02. Time Taken: 0.273304s
+  Iteration: 3. Squared Error: 7.321328e+01. Time Taken: 0.261336s
+  Iteration: 4. Squared Error: 3.903771e+01. Time Taken: 0.265116s
+  Iteration: 5. Squared Error: 2.027795e+01. Time Taken: 0.248981s
+  Iteration: 6. Squared Error: 1.167633e+01. Time Taken: 0.343376s
+  Iteration: 7. Squared Error: 9.144508e+00. Time Taken: 0.257755s
+  Iteration: 8. Squared Error: 4.880696e+00. Time Taken: 0.257980s
+  Iteration: 9. Squared Error: 3.115180e+00. Time Taken: 0.258422s
+  Iteration: 10. Squared Error: 2.182114e+00. Time Taken: 0.280767s
+  Iteration: 11. Squared Error: 1.490165e+00. Time Taken: 0.245348s
+  Iteration: 12. Squared Error: 1.048403e+00. Time Taken: 0.254649s
+  Iteration: 13. Squared Error: 7.702134e-01. Time Taken: 0.264368s
+  Iteration: 14. Squared Error: 5.765751e-01. Time Taken: 0.304113s
+  Iteration: 15. Squared Error: 4.398373e-01. Time Taken: 0.314758s
+  Iteration: 16. Squared Error: 3.427124e-01. Time Taken: 0.308780s
+  Iteration: 17. Squared Error: 2.745366e-01. Time Taken: 0.263297s
+  Iteration: 18. Squared Error: 2.307867e-01. Time Taken: 0.260857s
+  Iteration: 19. Squared Error: 1.983391e-01. Time Taken: 0.266384s
+  Iteration: 20. Squared Error: 1.637614e-01. Time Taken: 0.270046s
+  Iteration: 21. Squared Error: 1.364711e-01. Time Taken: 0.277038s
+  Iteration: 22. Squared Error: 1.141571e-01. Time Taken: 0.267971s
+  Iteration: 23. Squared Error: 9.579629e-02. Time Taken: 0.265119s
+  Iteration: 24. Squared Error: 8.120946e-02. Time Taken: 0.283556s
+  Iteration: 25. Squared Error: 6.942070e-02. Time Taken: 0.277051s
+  Generating Binary Classifier #15
+  Iteration: 1. Squared Error: 4.252745e+02. Time Taken: 0.288984s
+  Iteration: 2. Squared Error: 2.440579e+02. Time Taken: 0.248384s
+  Iteration: 3. Squared Error: 8.194480e+01. Time Taken: 0.253791s
+  Iteration: 4. Squared Error: 4.478030e+01. Time Taken: 0.249544s
+  Iteration: 5. Squared Error: 2.286239e+01. Time Taken: 0.320550s
+  Iteration: 6. Squared Error: 1.279945e+01. Time Taken: 0.248661s
+  Iteration: 7. Squared Error: 8.425926e+00. Time Taken: 0.249341s
+  Iteration: 8. Squared Error: 5.677322e+00. Time Taken: 0.248465s
+  Iteration: 9. Squared Error: 3.982854e+00. Time Taken: 0.299345s
+  Iteration: 10. Squared Error: 2.824045e+00. Time Taken: 0.253183s
+  Iteration: 11. Squared Error: 2.303698e+00. Time Taken: 0.247413s
+  Iteration: 12. Squared Error: 1.632373e+00. Time Taken: 0.255174s
+  Iteration: 13. Squared Error: 1.249052e+00. Time Taken: 0.271145s
+  Iteration: 14. Squared Error: 9.821503e-01. Time Taken: 0.267174s
+  Iteration: 15. Squared Error: 7.782955e-01. Time Taken: 0.331015s
+  Iteration: 16. Squared Error: 6.300213e-01. Time Taken: 0.347446s
+  Iteration: 17. Squared Error: 5.198774e-01. Time Taken: 0.265377s
+  Iteration: 18. Squared Error: 4.362501e-01. Time Taken: 0.262043s
+  Iteration: 19. Squared Error: 3.712796e-01. Time Taken: 0.275431s
+  Iteration: 20. Squared Error: 3.196475e-01. Time Taken: 0.312550s
+  Iteration: 21. Squared Error: 2.775486e-01. Time Taken: 0.265906s
+  Iteration: 22. Squared Error: 2.423863e-01. Time Taken: 0.260913s
+  Iteration: 23. Squared Error: 2.125881e-01. Time Taken: 0.271840s
+  Iteration: 24. Squared Error: 1.872616e-01. Time Taken: 0.266895s
+  Iteration: 25. Squared Error: 1.658946e-01. Time Taken: 0.262383s
+  Generating Binary Classifier #16
+  Iteration: 1. Squared Error: 8.309593e+02. Time Taken: 0.258772s
+  Iteration: 2. Squared Error: 3.155992e+02. Time Taken: 0.253003s
+  Iteration: 3. Squared Error: 7.890777e+01. Time Taken: 0.248024s
+  Iteration: 4. Squared Error: 2.959413e+01. Time Taken: 0.243360s
+  Iteration: 5. Squared Error: 1.480936e+01. Time Taken: 0.244977s
+  Iteration: 6. Squared Error: 7.886130e+00. Time Taken: 0.242287s
+  Iteration: 7. Squared Error: 4.721029e+00. Time Taken: 0.283898s
+  Iteration: 8. Squared Error: 2.870974e+00. Time Taken: 0.254410s
+  Iteration: 9. Squared Error: 1.923603e+00. Time Taken: 0.247329s
+  Iteration: 10. Squared Error: 1.301132e+00. Time Taken: 0.243618s
+  Iteration: 11. Squared Error: 9.171586e-01. Time Taken: 0.243798s
+  Iteration: 12. Squared Error: 6.819734e-01. Time Taken: 0.239110s
+  Iteration: 13. Squared Error: 5.152091e-01. Time Taken: 0.259956s
+  Iteration: 14. Squared Error: 3.922948e-01. Time Taken: 0.262185s
+  Iteration: 15. Squared Error: 2.998370e-01. Time Taken: 0.278352s
+  Iteration: 16. Squared Error: 2.296335e-01. Time Taken: 0.239514s
+  Iteration: 17. Squared Error: 1.760073e-01. Time Taken: 0.243360s
+  Iteration: 18. Squared Error: 1.346894e-01. Time Taken: 0.253800s
+  Iteration: 19. Squared Error: 1.028622e-01. Time Taken: 0.259601s
+  Iteration: 20. Squared Error: 7.849253e-02. Time Taken: 0.264310s
+  Iteration: 21. Squared Error: 6.001224e-02. Time Taken: 0.283908s
+  Iteration: 22. Squared Error: 4.599344e-02. Time Taken: 0.267037s
+  Iteration: 23. Squared Error: 3.577199e-02. Time Taken: 0.257043s
+  Iteration: 24. Squared Error: 2.821476e-02. Time Taken: 0.263114s
+  Generating Binary Classifier #17
+  Iteration: 1. Squared Error: 4.945108e+02. Time Taken: 0.259624s
+  Iteration: 2. Squared Error: 3.272710e+02. Time Taken: 0.262002s
+  Iteration: 3. Squared Error: 7.750547e+01. Time Taken: 0.259879s
+  Iteration: 4. Squared Error: 4.095078e+01. Time Taken: 0.257349s
+  Iteration: 5. Squared Error: 1.950534e+01. Time Taken: 0.253887s
+  Iteration: 6. Squared Error: 1.283218e+01. Time Taken: 0.262855s
+  Iteration: 7. Squared Error: 7.799228e+00. Time Taken: 0.292484s
+  Iteration: 8. Squared Error: 5.652945e+00. Time Taken: 0.251457s
+  Iteration: 9. Squared Error: 3.809424e+00. Time Taken: 0.246625s
+  Iteration: 10. Squared Error: 2.800793e+00. Time Taken: 0.281725s
+  Iteration: 11. Squared Error: 1.949873e+00. Time Taken: 0.291060s
+  Iteration: 12. Squared Error: 1.411400e+00. Time Taken: 0.256511s
+  Iteration: 13. Squared Error: 1.119585e+00. Time Taken: 0.267667s
+  Iteration: 14. Squared Error: 9.128940e-01. Time Taken: 0.245665s
+  Iteration: 15. Squared Error: 7.546479e-01. Time Taken: 0.271267s
+  Iteration: 16. Squared Error: 5.943355e-01. Time Taken: 0.264057s
+  Iteration: 17. Squared Error: 4.761214e-01. Time Taken: 0.275488s
+  Iteration: 18. Squared Error: 3.927592e-01. Time Taken: 0.279936s
+  Iteration: 19. Squared Error: 3.247298e-01. Time Taken: 0.268935s
+  Iteration: 20. Squared Error: 2.757369e-01. Time Taken: 0.259200s
+  Iteration: 21. Squared Error: 2.360009e-01. Time Taken: 0.257544s
+  Iteration: 22. Squared Error: 1.984282e-01. Time Taken: 0.255789s
+  Iteration: 23. Squared Error: 1.692623e-01. Time Taken: 0.254084s
+  Iteration: 24. Squared Error: 1.452153e-01. Time Taken: 0.245706s
+  Iteration: 25. Squared Error: 1.252727e-01. Time Taken: 0.244641s
+  Generating Binary Classifier #18
+  Iteration: 1. Squared Error: 1.125469e+03. Time Taken: 0.246942s
+  Iteration: 2. Squared Error: 4.617521e+02. Time Taken: 0.250510s
+  Iteration: 3. Squared Error: 1.076701e+02. Time Taken: 0.246338s
+  Iteration: 4. Squared Error: 4.248059e+01. Time Taken: 0.247708s
+  Iteration: 5. Squared Error: 2.010940e+01. Time Taken: 0.238158s
+  Iteration: 6. Squared Error: 1.161231e+01. Time Taken: 0.235497s
+  Iteration: 7. Squared Error: 7.081544e+00. Time Taken: 0.237395s
+  Iteration: 8. Squared Error: 4.249347e+00. Time Taken: 0.235260s
+  Iteration: 9. Squared Error: 2.867281e+00. Time Taken: 0.240897s
+  Iteration: 10. Squared Error: 1.962866e+00. Time Taken: 0.251019s
+  Iteration: 11. Squared Error: 1.415749e+00. Time Taken: 0.257220s
+  Iteration: 12. Squared Error: 1.013046e+00. Time Taken: 0.248933s
+  Iteration: 13. Squared Error: 7.562848e-01. Time Taken: 0.236374s
+  Iteration: 14. Squared Error: 5.784564e-01. Time Taken: 0.234115s
+  Iteration: 15. Squared Error: 4.556529e-01. Time Taken: 0.230305s
+  Iteration: 16. Squared Error: 3.639058e-01. Time Taken: 0.231895s
+  Iteration: 17. Squared Error: 2.990117e-01. Time Taken: 0.232685s
+  Iteration: 18. Squared Error: 2.394617e-01. Time Taken: 0.232950s
+  Iteration: 19. Squared Error: 2.036926e-01. Time Taken: 0.233378s
+  Iteration: 20. Squared Error: 1.700789e-01. Time Taken: 0.230505s
+  Iteration: 21. Squared Error: 1.478044e-01. Time Taken: 0.242721s
+  Iteration: 22. Squared Error: 1.529069e-01. Time Taken: 0.232068s
+  Iteration: 23. Squared Error: 1.241246e-01. Time Taken: 0.231690s
+  Iteration: 24. Squared Error: 1.039015e-01. Time Taken: 0.231046s
+  Iteration: 25. Squared Error: 8.870059e-02. Time Taken: 0.231468s
+  Generating Binary Classifier #19
+  Iteration: 1. Squared Error: 9.072450e+02. Time Taken: 0.227542s
+  Iteration: 2. Squared Error: 3.087976e+02. Time Taken: 0.257721s
+  Iteration: 3. Squared Error: 8.454089e+01. Time Taken: 0.221736s
+  Iteration: 4. Squared Error: 3.623659e+01. Time Taken: 0.232495s
+  Iteration: 5. Squared Error: 1.923326e+01. Time Taken: 0.250580s
+  Iteration: 6. Squared Error: 1.201413e+01. Time Taken: 0.227057s
+  Iteration: 7. Squared Error: 8.104428e+00. Time Taken: 0.221129s
+  Iteration: 8. Squared Error: 5.267177e+00. Time Taken: 0.224151s
+  Iteration: 9. Squared Error: 3.480710e+00. Time Taken: 0.231993s
+  Iteration: 10. Squared Error: 2.397404e+00. Time Taken: 0.230826s
+  Iteration: 11. Squared Error: 1.650437e+00. Time Taken: 0.235301s
+  Iteration: 12. Squared Error: 1.257399e+00. Time Taken: 0.229214s
+  Iteration: 13. Squared Error: 8.972635e-01. Time Taken: 0.231389s
+  Iteration: 14. Squared Error: 6.459956e-01. Time Taken: 0.231692s
+  Iteration: 15. Squared Error: 4.843129e-01. Time Taken: 0.230012s
+  Iteration: 16. Squared Error: 3.682505e-01. Time Taken: 0.229000s
+  Iteration: 17. Squared Error: 2.767537e-01. Time Taken: 0.231907s
+  Iteration: 18. Squared Error: 2.115283e-01. Time Taken: 0.228982s
+  Iteration: 19. Squared Error: 1.631136e-01. Time Taken: 0.223994s
+  Iteration: 20. Squared Error: 1.267730e-01. Time Taken: 0.226147s
+  Iteration: 21. Squared Error: 9.904991e-02. Time Taken: 0.224870s
+  Iteration: 22. Squared Error: 7.743082e-02. Time Taken: 0.231829s
+  Iteration: 23. Squared Error: 6.048584e-02. Time Taken: 0.224079s
+  Iteration: 24. Squared Error: 4.723077e-02. Time Taken: 0.230856s
+  Generating Binary Classifier #20
+  Iteration: 1. Squared Error: 6.586580e+02. Time Taken: 0.229708s
+  Iteration: 2. Squared Error: 2.721106e+02. Time Taken: 0.226467s
+  Iteration: 3. Squared Error: 4.843033e+01. Time Taken: 0.223192s
+  Iteration: 4. Squared Error: 2.042980e+01. Time Taken: 0.229306s
+  Iteration: 5. Squared Error: 9.209311e+00. Time Taken: 0.244637s
+  Iteration: 6. Squared Error: 5.342664e+00. Time Taken: 0.226921s
+  Iteration: 7. Squared Error: 3.680723e+00. Time Taken: 0.221097s
+  Iteration: 8. Squared Error: 2.434460e+00. Time Taken: 0.223335s
+  Iteration: 9. Squared Error: 1.637323e+00. Time Taken: 0.235369s
+  Iteration: 10. Squared Error: 1.146546e+00. Time Taken: 0.224032s
+  Iteration: 11. Squared Error: 8.284378e-01. Time Taken: 0.223224s
+  Iteration: 12. Squared Error: 6.159287e-01. Time Taken: 0.222843s
+  Iteration: 13. Squared Error: 4.885224e-01. Time Taken: 0.228079s
+  Iteration: 14. Squared Error: 3.738022e-01. Time Taken: 0.228460s
+  Iteration: 15. Squared Error: 2.936637e-01. Time Taken: 0.226166s
+  Iteration: 16. Squared Error: 2.350106e-01. Time Taken: 0.224490s
+  Iteration: 17. Squared Error: 1.911440e-01. Time Taken: 0.224758s
+  Iteration: 18. Squared Error: 1.578531e-01. Time Taken: 0.224620s
+  Iteration: 19. Squared Error: 1.322281e-01. Time Taken: 0.228313s
+  Iteration: 20. Squared Error: 1.121745e-01. Time Taken: 0.228131s
+  Iteration: 21. Squared Error: 9.618067e-02. Time Taken: 0.225489s
+  Iteration: 22. Squared Error: 8.317017e-02. Time Taken: 0.231179s
+  Iteration: 23. Squared Error: 7.238526e-02. Time Taken: 0.225597s
+  Iteration: 24. Squared Error: 6.329529e-02. Time Taken: 0.225917s
+  Iteration: 25. Squared Error: 5.553159e-02. Time Taken: 0.240034s
+Training completed. Total Time Taken: 127.581606s
+Classification completed. Total Time Taken: 0.024915s
+
+Regularizatin Parameter: 0.01
+Max F1 Score as a pure binary classifier:
+      talk.religion.misc	0.428571
+         sci.electronics	0.448276
+   comp.sys.mac.hardware	0.442308
+   talk.politics.mideast	0.862069
+      talk.politics.misc	0.370370
+      talk.politics.guns	0.466667
+  soc.religion.christian	0.938776
+                 sci.med	0.500000
+comp.sys.ibm.pc.hardware	0.367347
+             alt.atheism	0.625000
+          comp.windows.x	0.701031
+               sci.space	0.782609
+        rec.sport.hockey	0.808511
+ comp.os.ms-windows.misc	0.533333
+      rec.sport.baseball	0.775510
+               sci.crypt	0.883721
+           comp.graphics	0.571429
+         rec.motorcycles	0.625000
+            misc.forsale	0.493333
+               rec.autos	0.509091
+
+                 Average	0.606648
+
+Regularization parameter: 0.050000 (2/6)
+Begining iteration...
+  Generating Binary Classifier #1
+  Iteration: 1. Squared Error: 2.495467e+02. Time Taken: 0.225966s
+  Iteration: 2. Squared Error: 9.016835e+01. Time Taken: 0.231422s
+  Iteration: 3. Squared Error: 2.497755e+01. Time Taken: 0.230423s
+  Iteration: 4. Squared Error: 7.881468e+00. Time Taken: 0.223256s
+  Iteration: 5. Squared Error: 2.498321e+00. Time Taken: 0.228773s
+  Iteration: 6. Squared Error: 8.423258e-01. Time Taken: 0.223656s
+  Iteration: 7. Squared Error: 3.393060e-01. Time Taken: 0.227525s
+  Iteration: 8. Squared Error: 1.549763e-01. Time Taken: 0.223610s
+  Iteration: 9. Squared Error: 7.017345e-02. Time Taken: 0.222050s
+  Iteration: 10. Squared Error: 3.192072e-02. Time Taken: 0.224022s
+  Iteration: 11. Squared Error: 1.534926e-02. Time Taken: 0.223590s
+  Generating Binary Classifier #2
+  Iteration: 1. Squared Error: 5.523892e+02. Time Taken: 0.223384s
+  Iteration: 2. Squared Error: 2.173781e+02. Time Taken: 0.221239s
+  Iteration: 3. Squared Error: 4.596101e+01. Time Taken: 0.218871s
+  Iteration: 4. Squared Error: 1.299211e+01. Time Taken: 0.216198s
+  Iteration: 5. Squared Error: 4.527688e+00. Time Taken: 0.216988s
+  Iteration: 6. Squared Error: 1.678268e+00. Time Taken: 0.225626s
+  Iteration: 7. Squared Error: 6.967310e-01. Time Taken: 0.214402s
+  Iteration: 8. Squared Error: 2.950399e-01. Time Taken: 0.220005s
+  Iteration: 9. Squared Error: 1.372620e-01. Time Taken: 0.216025s
+  Iteration: 10. Squared Error: 6.630646e-02. Time Taken: 0.224136s
+  Iteration: 11. Squared Error: 3.307503e-02. Time Taken: 0.225099s
+  Generating Binary Classifier #3
+  Iteration: 1. Squared Error: 1.898600e+02. Time Taken: 0.242692s
+  Iteration: 2. Squared Error: 9.674717e+01. Time Taken: 0.265291s
+  Iteration: 3. Squared Error: 1.927881e+01. Time Taken: 0.236388s
+  Iteration: 4. Squared Error: 7.891379e+00. Time Taken: 0.237199s
+  Iteration: 5. Squared Error: 2.649384e+00. Time Taken: 0.243143s
+  Iteration: 6. Squared Error: 1.061827e+00. Time Taken: 0.239677s
+  Iteration: 7. Squared Error: 4.059338e-01. Time Taken: 0.237576s
+  Iteration: 8. Squared Error: 1.703025e-01. Time Taken: 0.236093s
+  Iteration: 9. Squared Error: 7.720858e-02. Time Taken: 0.234621s
+  Iteration: 10. Squared Error: 3.765577e-02. Time Taken: 0.244530s
+  Iteration: 11. Squared Error: 1.869775e-02. Time Taken: 0.265415s
+  Iteration: 12. Squared Error: 9.320224e-03. Time Taken: 0.246706s
+  Generating Binary Classifier #4
+  Iteration: 1. Squared Error: 5.721870e+02. Time Taken: 0.249792s
+  Iteration: 2. Squared Error: 3.088673e+02. Time Taken: 0.240405s
+  Iteration: 3. Squared Error: 7.829888e+01. Time Taken: 0.235300s
+  Iteration: 4. Squared Error: 2.742022e+01. Time Taken: 0.247111s
+  Iteration: 5. Squared Error: 1.141405e+01. Time Taken: 0.248290s
+  Iteration: 6. Squared Error: 5.336330e+00. Time Taken: 0.246524s
+  Iteration: 7. Squared Error: 2.663326e+00. Time Taken: 0.242862s
+  Iteration: 8. Squared Error: 1.353900e+00. Time Taken: 0.240097s
+  Iteration: 9. Squared Error: 7.134612e-01. Time Taken: 0.247374s
+  Iteration: 10. Squared Error: 3.883159e-01. Time Taken: 0.243290s
+  Iteration: 11. Squared Error: 2.219361e-01. Time Taken: 0.271932s
+  Iteration: 12. Squared Error: 1.297644e-01. Time Taken: 0.256324s
+  Iteration: 13. Squared Error: 7.767572e-02. Time Taken: 0.244216s
+  Iteration: 14. Squared Error: 4.943772e-02. Time Taken: 0.256009s
+  Generating Binary Classifier #5
+  Iteration: 1. Squared Error: 2.263404e+02. Time Taken: 0.254853s
+  Iteration: 2. Squared Error: 1.017101e+02. Time Taken: 0.245780s
+  Iteration: 3. Squared Error: 2.227001e+01. Time Taken: 0.245023s
+  Iteration: 4. Squared Error: 6.971759e+00. Time Taken: 0.249909s
+  Iteration: 5. Squared Error: 2.385292e+00. Time Taken: 0.246198s
+  Iteration: 6. Squared Error: 8.720139e-01. Time Taken: 0.246745s
+  Iteration: 7. Squared Error: 3.480146e-01. Time Taken: 0.263357s
+  Iteration: 8. Squared Error: 1.179148e-01. Time Taken: 0.260741s
+  Iteration: 9. Squared Error: 4.500518e-02. Time Taken: 0.251890s
+  Iteration: 10. Squared Error: 1.998893e-02. Time Taken: 0.247461s
+  Iteration: 11. Squared Error: 9.497145e-03. Time Taken: 0.250494s
+  Generating Binary Classifier #6
+  Iteration: 1. Squared Error: 2.666194e+02. Time Taken: 0.245643s
+  Iteration: 2. Squared Error: 1.219259e+02. Time Taken: 0.253959s
+  Iteration: 3. Squared Error: 2.050444e+01. Time Taken: 0.254381s
+  Iteration: 4. Squared Error: 5.745284e+00. Time Taken: 0.254540s
+  Iteration: 5. Squared Error: 1.873583e+00. Time Taken: 0.261937s
+  Iteration: 6. Squared Error: 6.469194e-01. Time Taken: 0.253390s
+  Iteration: 7. Squared Error: 2.690614e-01. Time Taken: 0.254692s
+  Iteration: 8. Squared Error: 1.339306e-01. Time Taken: 0.244241s
+  Iteration: 9. Squared Error: 6.719538e-02. Time Taken: 0.239697s
+  Iteration: 10. Squared Error: 3.417291e-02. Time Taken: 0.238384s
+  Iteration: 11. Squared Error: 1.851844e-02. Time Taken: 0.267874s
+  Iteration: 12. Squared Error: 1.075276e-02. Time Taken: 0.256081s
+  Generating Binary Classifier #7
+  Iteration: 1. Squared Error: 9.597057e+01. Time Taken: 0.252020s
+  Iteration: 2. Squared Error: 3.184328e+01. Time Taken: 0.253243s
+  Iteration: 3. Squared Error: 7.816324e+00. Time Taken: 0.257648s
+  Iteration: 4. Squared Error: 2.043241e+00. Time Taken: 0.246355s
+  Iteration: 5. Squared Error: 6.218118e-01. Time Taken: 0.243415s
+  Iteration: 6. Squared Error: 1.925927e-01. Time Taken: 0.243220s
+  Iteration: 7. Squared Error: 7.018000e-02. Time Taken: 0.262873s
+  Iteration: 8. Squared Error: 2.815148e-02. Time Taken: 0.255849s
+  Iteration: 9. Squared Error: 1.112384e-02. Time Taken: 0.236581s
+  Iteration: 10. Squared Error: 4.259067e-03. Time Taken: 0.237047s
+  Generating Binary Classifier #8
+  Iteration: 1. Squared Error: 5.730368e+02. Time Taken: 0.237152s
+  Iteration: 2. Squared Error: 2.670138e+02. Time Taken: 0.235736s
+  Iteration: 3. Squared Error: 5.892294e+01. Time Taken: 0.232508s
+  Iteration: 4. Squared Error: 2.068222e+01. Time Taken: 0.227520s
+  Iteration: 5. Squared Error: 7.459564e+00. Time Taken: 0.232256s
+  Iteration: 6. Squared Error: 3.196448e+00. Time Taken: 0.234710s
+  Iteration: 7. Squared Error: 1.594074e+00. Time Taken: 0.224009s
+  Iteration: 8. Squared Error: 8.540844e-01. Time Taken: 0.233454s
+  Iteration: 9. Squared Error: 4.848973e-01. Time Taken: 0.226735s
+  Iteration: 10. Squared Error: 3.066269e-01. Time Taken: 0.249421s
+  Iteration: 11. Squared Error: 1.938584e-01. Time Taken: 0.221343s
+  Iteration: 12. Squared Error: 1.327063e-01. Time Taken: 0.222559s
+  Iteration: 13. Squared Error: 9.594164e-02. Time Taken: 0.221423s
+  Iteration: 14. Squared Error: 7.249909e-02. Time Taken: 0.226396s
+  Iteration: 15. Squared Error: 5.723117e-02. Time Taken: 0.224095s
+  Iteration: 16. Squared Error: 4.741086e-02. Time Taken: 0.223367s
+  Iteration: 17. Squared Error: 4.114208e-02. Time Taken: 0.220802s
+  Iteration: 18. Squared Error: 3.661446e-02. Time Taken: 0.225398s
+  Generating Binary Classifier #9
+  Iteration: 1. Squared Error: 2.725449e+02. Time Taken: 0.221403s
+  Iteration: 2. Squared Error: 1.274979e+02. Time Taken: 0.228385s
+  Iteration: 3. Squared Error: 2.735285e+01. Time Taken: 0.221205s
+  Iteration: 4. Squared Error: 8.374476e+00. Time Taken: 0.219373s
+  Iteration: 5. Squared Error: 3.115853e+00. Time Taken: 0.218400s
+  Iteration: 6. Squared Error: 1.136096e+00. Time Taken: 0.219482s
+  Iteration: 7. Squared Error: 4.811653e-01. Time Taken: 0.226752s
+  Iteration: 8. Squared Error: 2.234038e-01. Time Taken: 0.219737s
+  Iteration: 9. Squared Error: 1.111565e-01. Time Taken: 0.217626s
+  Iteration: 10. Squared Error: 5.912334e-02. Time Taken: 0.224380s
+  Iteration: 11. Squared Error: 3.239311e-02. Time Taken: 0.230274s
+  Iteration: 12. Squared Error: 1.835227e-02. Time Taken: 0.220355s
+  Generating Binary Classifier #10
+  Iteration: 1. Squared Error: 5.806437e+02. Time Taken: 0.221980s
+  Iteration: 2. Squared Error: 1.770180e+02. Time Taken: 0.224790s
+  Iteration: 3. Squared Error: 4.189303e+01. Time Taken: 0.224841s
+  Iteration: 4. Squared Error: 1.125020e+01. Time Taken: 0.228094s
+  Iteration: 5. Squared Error: 4.124332e+00. Time Taken: 0.234118s
+  Iteration: 6. Squared Error: 1.825636e+00. Time Taken: 0.221991s
+  Iteration: 7. Squared Error: 9.617335e-01. Time Taken: 0.228224s
+  Iteration: 8. Squared Error: 5.867559e-01. Time Taken: 0.222976s
+  Iteration: 9. Squared Error: 4.005937e-01. Time Taken: 0.230157s
+  Iteration: 10. Squared Error: 2.939429e-01. Time Taken: 0.229183s
+  Iteration: 11. Squared Error: 2.269459e-01. Time Taken: 0.223442s
+  Iteration: 12. Squared Error: 1.816730e-01. Time Taken: 0.223312s
+  Iteration: 13. Squared Error: 1.487273e-01. Time Taken: 0.225292s
+  Iteration: 14. Squared Error: 1.238486e-01. Time Taken: 0.221508s
+  Iteration: 15. Squared Error: 1.048298e-01. Time Taken: 0.255143s
+  Iteration: 16. Squared Error: 9.073437e-02. Time Taken: 0.230711s
+  Iteration: 17. Squared Error: 8.086757e-02. Time Taken: 0.229918s
+  Iteration: 18. Squared Error: 7.398315e-02. Time Taken: 0.231795s
+  Iteration: 19. Squared Error: 6.835742e-02. Time Taken: 0.229520s
+  Iteration: 20. Squared Error: 6.250367e-02. Time Taken: 0.232924s
+  Iteration: 21. Squared Error: 5.584850e-02. Time Taken: 0.242448s
+  Iteration: 22. Squared Error: 4.882030e-02. Time Taken: 0.236182s
+  Iteration: 23. Squared Error: 4.234212e-02. Time Taken: 0.247413s
+  Generating Binary Classifier #11
+  Iteration: 1. Squared Error: 2.617749e+02. Time Taken: 0.289970s
+  Iteration: 2. Squared Error: 1.358423e+02. Time Taken: 0.248143s
+  Iteration: 3. Squared Error: 3.453209e+01. Time Taken: 0.271580s
+  Iteration: 4. Squared Error: 1.127830e+01. Time Taken: 0.241876s
+  Iteration: 5. Squared Error: 4.301699e+00. Time Taken: 0.237292s
+  Iteration: 6. Squared Error: 1.918077e+00. Time Taken: 0.236521s
+  Iteration: 7. Squared Error: 9.950668e-01. Time Taken: 0.238962s
+  Iteration: 8. Squared Error: 5.472905e-01. Time Taken: 0.242675s
+  Iteration: 9. Squared Error: 3.279602e-01. Time Taken: 0.240886s
+  Iteration: 10. Squared Error: 2.060670e-01. Time Taken: 0.238765s
+  Iteration: 11. Squared Error: 1.357881e-01. Time Taken: 0.241690s
+  Iteration: 12. Squared Error: 9.293601e-02. Time Taken: 0.229869s
+  Iteration: 13. Squared Error: 6.481773e-02. Time Taken: 0.229866s
+  Iteration: 14. Squared Error: 4.613295e-02. Time Taken: 0.231691s
+  Iteration: 15. Squared Error: 3.345286e-02. Time Taken: 0.237911s
+  Iteration: 16. Squared Error: 2.482511e-02. Time Taken: 0.235357s
+  Iteration: 17. Squared Error: 1.866508e-02. Time Taken: 0.224674s
+  Iteration: 18. Squared Error: 1.402318e-02. Time Taken: 0.224672s
+  Generating Binary Classifier #12
+  Iteration: 1. Squared Error: 5.781903e+02. Time Taken: 0.231120s
+  Iteration: 2. Squared Error: 2.037716e+02. Time Taken: 0.231383s
+  Iteration: 3. Squared Error: 4.065079e+01. Time Taken: 0.226384s
+  Iteration: 4. Squared Error: 9.947750e+00. Time Taken: 0.224594s
+  Iteration: 5. Squared Error: 2.901947e+00. Time Taken: 0.229401s
+  Iteration: 6. Squared Error: 1.226293e+00. Time Taken: 0.243232s
+  Iteration: 7. Squared Error: 4.251726e-01. Time Taken: 0.224981s
+  Iteration: 8. Squared Error: 1.712695e-01. Time Taken: 0.226778s
+  Iteration: 9. Squared Error: 7.532360e-02. Time Taken: 0.241885s
+  Iteration: 10. Squared Error: 3.501910e-02. Time Taken: 0.217193s
+  Generating Binary Classifier #13
+  Iteration: 1. Squared Error: 4.059829e+02. Time Taken: 0.221771s
+  Iteration: 2. Squared Error: 1.884822e+02. Time Taken: 0.221690s
+  Iteration: 3. Squared Error: 4.578933e+01. Time Taken: 0.215876s
+  Iteration: 4. Squared Error: 1.517171e+01. Time Taken: 0.221470s
+  Iteration: 5. Squared Error: 5.821241e+00. Time Taken: 0.218533s
+  Iteration: 6. Squared Error: 2.763506e+00. Time Taken: 0.217766s
+  Iteration: 7. Squared Error: 1.159127e+00. Time Taken: 0.221080s
+  Iteration: 8. Squared Error: 5.597835e-01. Time Taken: 0.222071s
+  Iteration: 9. Squared Error: 3.005282e-01. Time Taken: 0.222533s
+  Iteration: 10. Squared Error: 1.714573e-01. Time Taken: 0.219344s
+  Iteration: 11. Squared Error: 1.023244e-01. Time Taken: 0.221925s
+  Iteration: 12. Squared Error: 6.305341e-02. Time Taken: 0.219790s
+  Iteration: 13. Squared Error: 4.067612e-02. Time Taken: 0.216274s
+  Iteration: 14. Squared Error: 2.730311e-02. Time Taken: 0.220912s
+  Iteration: 15. Squared Error: 1.940040e-02. Time Taken: 0.216498s
+  Generating Binary Classifier #14
+  Iteration: 1. Squared Error: 1.570556e+02. Time Taken: 0.222174s
+  Iteration: 2. Squared Error: 9.149950e+01. Time Taken: 0.225360s
+  Iteration: 3. Squared Error: 2.047054e+01. Time Taken: 0.235918s
+  Iteration: 4. Squared Error: 7.994994e+00. Time Taken: 0.231867s
+  Iteration: 5. Squared Error: 3.014019e+00. Time Taken: 0.235161s
+  Iteration: 6. Squared Error: 1.363920e+00. Time Taken: 0.263398s
+  Iteration: 7. Squared Error: 6.251104e-01. Time Taken: 0.241414s
+  Iteration: 8. Squared Error: 3.151860e-01. Time Taken: 0.239030s
+  Iteration: 9. Squared Error: 1.623487e-01. Time Taken: 0.237324s
+  Iteration: 10. Squared Error: 9.610558e-02. Time Taken: 0.234355s
+  Iteration: 11. Squared Error: 5.251482e-02. Time Taken: 0.239508s
+  Iteration: 12. Squared Error: 3.629185e-02. Time Taken: 0.247479s
+  Iteration: 13. Squared Error: 2.831544e-02. Time Taken: 0.232155s
+  Iteration: 14. Squared Error: 2.352869e-02. Time Taken: 0.236445s
+  Iteration: 15. Squared Error: 1.977406e-02. Time Taken: 0.233897s
+  Iteration: 16. Squared Error: 1.616363e-02. Time Taken: 0.244613s
+  Iteration: 17. Squared Error: 1.268248e-02. Time Taken: 0.230871s
+  Generating Binary Classifier #15
+  Iteration: 1. Squared Error: 1.838258e+02. Time Taken: 0.233488s
+  Iteration: 2. Squared Error: 8.528932e+01. Time Taken: 0.233043s
+  Iteration: 3. Squared Error: 2.254878e+01. Time Taken: 0.233648s
+  Iteration: 4. Squared Error: 6.636933e+00. Time Taken: 0.234378s
+  Iteration: 5. Squared Error: 2.331390e+00. Time Taken: 0.234215s
+  Iteration: 6. Squared Error: 9.893010e-01. Time Taken: 0.235030s
+  Iteration: 7. Squared Error: 5.273041e-01. Time Taken: 0.237199s
+  Iteration: 8. Squared Error: 2.979990e-01. Time Taken: 0.232863s
+  Iteration: 9. Squared Error: 1.882450e-01. Time Taken: 0.249350s
+  Iteration: 10. Squared Error: 1.285702e-01. Time Taken: 0.248151s
+  Iteration: 11. Squared Error: 9.484170e-02. Time Taken: 0.231281s
+  Iteration: 12. Squared Error: 7.383238e-02. Time Taken: 0.231302s
+  Iteration: 13. Squared Error: 5.994054e-02. Time Taken: 0.233845s
+  Iteration: 14. Squared Error: 5.018455e-02. Time Taken: 0.224315s
+  Iteration: 15. Squared Error: 4.329880e-02. Time Taken: 0.228884s
+  Iteration: 16. Squared Error: 3.862619e-02. Time Taken: 0.222493s
+  Iteration: 17. Squared Error: 3.527090e-02. Time Taken: 0.229654s
+  Iteration: 18. Squared Error: 3.218595e-02. Time Taken: 0.224959s
+  Iteration: 19. Squared Error: 2.872419e-02. Time Taken: 0.222553s
+  Iteration: 20. Squared Error: 2.492141e-02. Time Taken: 0.224709s
+  Iteration: 21. Squared Error: 2.127676e-02. Time Taken: 0.224045s
+  Iteration: 22. Squared Error: 1.829748e-02. Time Taken: 0.223328s
+  Iteration: 23. Squared Error: 1.617849e-02. Time Taken: 0.217762s
+  Iteration: 24. Squared Error: 1.476979e-02. Time Taken: 0.214796s
+  Generating Binary Classifier #16
+  Iteration: 1. Squared Error: 2.735337e+02. Time Taken: 0.215407s
+  Iteration: 2. Squared Error: 8.420328e+01. Time Taken: 0.216127s
+  Iteration: 3. Squared Error: 1.250948e+01. Time Taken: 0.219742s
+  Iteration: 4. Squared Error: 2.969098e+00. Time Taken: 0.218651s
+  Iteration: 5. Squared Error: 8.808719e-01. Time Taken: 0.217271s
+  Iteration: 6. Squared Error: 2.697180e-01. Time Taken: 0.215996s
+  Iteration: 7. Squared Error: 9.083497e-02. Time Taken: 0.220192s
+  Iteration: 8. Squared Error: 3.722423e-02. Time Taken: 0.219476s
+  Iteration: 9. Squared Error: 1.578579e-02. Time Taken: 0.213506s
+  Generating Binary Classifier #17
+  Iteration: 1. Squared Error: 2.170460e+02. Time Taken: 0.221616s
+  Iteration: 2. Squared Error: 1.278244e+02. Time Taken: 0.216913s
+  Iteration: 3. Squared Error: 2.757034e+01. Time Taken: 0.239860s
+  Iteration: 4. Squared Error: 1.148613e+01. Time Taken: 0.229028s
+  Iteration: 5. Squared Error: 4.089587e+00. Time Taken: 0.222635s
+  Iteration: 6. Squared Error: 2.144224e+00. Time Taken: 0.225150s
+  Iteration: 7. Squared Error: 1.122682e+00. Time Taken: 0.226632s
+  Iteration: 8. Squared Error: 5.967554e-01. Time Taken: 0.222558s
+  Iteration: 9. Squared Error: 3.501224e-01. Time Taken: 0.228124s
+  Iteration: 10. Squared Error: 2.213203e-01. Time Taken: 0.225628s
+  Iteration: 11. Squared Error: 1.500274e-01. Time Taken: 0.227208s
+  Iteration: 12. Squared Error: 1.061469e-01. Time Taken: 0.223933s
+  Iteration: 13. Squared Error: 8.096670e-02. Time Taken: 0.226529s
+  Iteration: 14. Squared Error: 6.422289e-02. Time Taken: 0.220243s
+  Iteration: 15. Squared Error: 5.126274e-02. Time Taken: 0.224311s
+  Iteration: 16. Squared Error: 4.190023e-02. Time Taken: 0.220109s
+  Iteration: 17. Squared Error: 3.279480e-02. Time Taken: 0.224133s
+  Iteration: 18. Squared Error: 2.557387e-02. Time Taken: 0.225005s
+  Iteration: 19. Squared Error: 2.027800e-02. Time Taken: 0.224176s
+  Iteration: 20. Squared Error: 1.642216e-02. Time Taken: 0.217805s
+  Iteration: 21. Squared Error: 1.353737e-02. Time Taken: 0.221543s
+  Generating Binary Classifier #18
+  Iteration: 1. Squared Error: 4.896981e+02. Time Taken: 0.228897s
+  Iteration: 2. Squared Error: 1.788364e+02. Time Taken: 0.241396s
+  Iteration: 3. Squared Error: 3.496061e+01. Time Taken: 0.247648s
+  Iteration: 4. Squared Error: 8.012936e+00. Time Taken: 0.226546s
+  Iteration: 5. Squared Error: 2.693622e+00. Time Taken: 0.225202s
+  Iteration: 6. Squared Error: 1.259510e+00. Time Taken: 0.229800s
+  Iteration: 7. Squared Error: 5.014884e-01. Time Taken: 0.235638s
+  Iteration: 8. Squared Error: 2.485621e-01. Time Taken: 0.226990s
+  Iteration: 9. Squared Error: 1.368066e-01. Time Taken: 0.225285s
+  Iteration: 10. Squared Error: 8.055059e-02. Time Taken: 0.227398s
+  Iteration: 11. Squared Error: 4.703470e-02. Time Taken: 0.227887s
+  Iteration: 12. Squared Error: 2.768192e-02. Time Taken: 0.227858s
+  Generating Binary Classifier #19
+  Iteration: 1. Squared Error: 4.244642e+02. Time Taken: 0.222579s
+  Iteration: 2. Squared Error: 1.486070e+02. Time Taken: 0.219981s
+  Iteration: 3. Squared Error: 3.048987e+01. Time Taken: 0.220854s
+  Iteration: 4. Squared Error: 8.774366e+00. Time Taken: 0.222107s
+  Iteration: 5. Squared Error: 2.924947e+00. Time Taken: 0.221805s
+  Iteration: 6. Squared Error: 1.090817e+00. Time Taken: 0.225257s
+  Iteration: 7. Squared Error: 4.287096e-01. Time Taken: 0.221189s
+  Iteration: 8. Squared Error: 1.749421e-01. Time Taken: 0.218171s
+  Iteration: 9. Squared Error: 7.312436e-02. Time Taken: 0.214368s
+  Iteration: 10. Squared Error: 3.163113e-02. Time Taken: 0.222824s
+  Generating Binary Classifier #20
+  Iteration: 1. Squared Error: 2.243939e+02. Time Taken: 0.215600s
+  Iteration: 2. Squared Error: 7.502997e+01. Time Taken: 0.219335s
+  Iteration: 3. Squared Error: 1.268193e+01. Time Taken: 0.221009s
+  Iteration: 4. Squared Error: 3.559181e+00. Time Taken: 0.224890s
+  Iteration: 5. Squared Error: 1.229960e+00. Time Taken: 0.219450s
+  Iteration: 6. Squared Error: 5.538551e-01. Time Taken: 0.221396s
+  Iteration: 7. Squared Error: 2.981301e-01. Time Taken: 0.223044s
+  Iteration: 8. Squared Error: 1.824075e-01. Time Taken: 0.222857s
+  Iteration: 9. Squared Error: 1.061787e-01. Time Taken: 0.236290s
+  Iteration: 10. Squared Error: 6.787770e-02. Time Taken: 0.233449s
+  Iteration: 11. Squared Error: 4.460940e-02. Time Taken: 0.221632s
+  Iteration: 12. Squared Error: 3.087016e-02. Time Taken: 0.226635s
+  Iteration: 13. Squared Error: 2.067400e-02. Time Taken: 0.225422s
+  Iteration: 14. Squared Error: 1.321376e-02. Time Taken: 0.226835s
+  Iteration: 15. Squared Error: 8.145999e-03. Time Taken: 0.231661s
+Training completed. Total Time Taken: 66.528922s
+Classification completed. Total Time Taken: 0.018081s
+
+Regularizatin Parameter: 0.050000
+Max F1 Score as a pure binary classifier:
+      talk.religion.misc	0.400000
+         sci.electronics	0.426230
+   comp.sys.mac.hardware	0.526316
+   talk.politics.mideast	0.896552
+      talk.politics.misc	0.411765
+      talk.politics.guns	0.484848
+  soc.religion.christian	0.938776
+                 sci.med	0.600000
+comp.sys.ibm.pc.hardware	0.371429
+             alt.atheism	0.666667
+          comp.windows.x	0.767857
+               sci.space	0.790698
+        rec.sport.hockey	0.886598
+ comp.os.ms-windows.misc	0.529412
+      rec.sport.baseball	0.791667
+               sci.crypt	0.926829
+           comp.graphics	0.574257
+         rec.motorcycles	0.731707
+            misc.forsale	0.642534
+               rec.autos	0.509804
+
+                 Average	0.643697
+
+Regularization parameter: 0.100000 (3/6)
+Begining iteration...
+  Generating Binary Classifier #1
+  Iteration: 1. Squared Error: 1.624433e+02. Time Taken: 0.226814s
+  Iteration: 2. Squared Error: 5.000864e+01. Time Taken: 0.227675s
+  Iteration: 3. Squared Error: 9.210650e+00. Time Taken: 0.232751s
+  Iteration: 4. Squared Error: 1.345775e+00. Time Taken: 0.242586s
+  Iteration: 5. Squared Error: 2.665130e-01. Time Taken: 0.231710s
+  Iteration: 6. Squared Error: 6.680687e-02. Time Taken: 0.227402s
+  Iteration: 7. Squared Error: 1.724150e-02. Time Taken: 0.222973s
+  Iteration: 8. Squared Error: 4.818995e-03. Time Taken: 0.219795s
+  Generating Binary Classifier #2
+  Iteration: 1. Squared Error: 3.531864e+02. Time Taken: 0.224950s
+  Iteration: 2. Squared Error: 1.226601e+02. Time Taken: 0.221104s
+  Iteration: 3. Squared Error: 1.832961e+01. Time Taken: 0.223461s
+  Iteration: 4. Squared Error: 2.997191e+00. Time Taken: 0.222786s
+  Iteration: 5. Squared Error: 6.699531e-01. Time Taken: 0.251246s
+  Iteration: 6. Squared Error: 1.766281e-01. Time Taken: 0.222867s
+  Iteration: 7. Squared Error: 5.530178e-02. Time Taken: 0.223182s
+  Iteration: 8. Squared Error: 1.911047e-02. Time Taken: 0.223545s
+  Generating Binary Classifier #3
+  Iteration: 1. Squared Error: 1.233670e+02. Time Taken: 0.224368s
+  Iteration: 2. Squared Error: 5.400615e+01. Time Taken: 0.225597s
+  Iteration: 3. Squared Error: 7.779015e+00. Time Taken: 0.226155s
+  Iteration: 4. Squared Error: 1.917770e+00. Time Taken: 0.218352s
+  Iteration: 5. Squared Error: 3.371408e-01. Time Taken: 0.221061s
+  Iteration: 6. Squared Error: 7.672737e-02. Time Taken: 0.222420s
+  Iteration: 7. Squared Error: 2.168581e-02. Time Taken: 0.224453s
+  Iteration: 8. Squared Error: 6.602210e-03. Time Taken: 0.223733s
+  Generating Binary Classifier #4
+  Iteration: 1. Squared Error: 3.753150e+02. Time Taken: 0.224237s
+  Iteration: 2. Squared Error: 1.890874e+02. Time Taken: 0.227410s
+  Iteration: 3. Squared Error: 3.737347e+01. Time Taken: 0.225758s
+  Iteration: 4. Squared Error: 9.370225e+00. Time Taken: 0.225732s
+  Iteration: 5. Squared Error: 2.651570e+00. Time Taken: 0.229317s
+  Iteration: 6. Squared Error: 8.723474e-01. Time Taken: 0.222594s
+  Iteration: 7. Squared Error: 3.227743e-01. Time Taken: 0.226834s
+  Iteration: 8. Squared Error: 1.344717e-01. Time Taken: 0.231028s
+  Iteration: 9. Squared Error: 5.982858e-02. Time Taken: 0.248402s
+  Iteration: 10. Squared Error: 2.763172e-02. Time Taken: 0.261224s
+  Generating Binary Classifier #5
+  Iteration: 1. Squared Error: 1.427714e+02. Time Taken: 0.259322s
+  Iteration: 2. Squared Error: 5.834447e+01. Time Taken: 0.239918s
+  Iteration: 3. Squared Error: 1.027862e+01. Time Taken: 0.235595s
+  Iteration: 4. Squared Error: 2.318880e+00. Time Taken: 0.241526s
+  Iteration: 5. Squared Error: 5.243398e-01. Time Taken: 0.241128s
+  Iteration: 6. Squared Error: 1.274055e-01. Time Taken: 0.235820s
+  Iteration: 7. Squared Error: 3.601336e-02. Time Taken: 0.246805s
+  Iteration: 8. Squared Error: 1.169954e-02. Time Taken: 0.236139s
+  Iteration: 9. Squared Error: 4.096274e-03. Time Taken: 0.244284s
+  Generating Binary Classifier #6
+  Iteration: 1. Squared Error: 1.749635e+02. Time Taken: 0.236056s
+  Iteration: 2. Squared Error: 7.405965e+01. Time Taken: 0.236399s
+  Iteration: 3. Squared Error: 9.793896e+00. Time Taken: 0.235940s
+  Iteration: 4. Squared Error: 1.911877e+00. Time Taken: 0.237240s
+  Iteration: 5. Squared Error: 4.001547e-01. Time Taken: 0.287857s
+  Iteration: 6. Squared Error: 1.271010e-01. Time Taken: 0.302302s
+  Iteration: 7. Squared Error: 4.617507e-02. Time Taken: 0.349507s
+  Iteration: 8. Squared Error: 1.589705e-02. Time Taken: 0.354275s
+  Iteration: 9. Squared Error: 5.502741e-03. Time Taken: 0.283262s
+  Generating Binary Classifier #7
+  Iteration: 1. Squared Error: 5.848234e+01. Time Taken: 0.269684s
+  Iteration: 2. Squared Error: 1.525586e+01. Time Taken: 0.265264s
+  Iteration: 3. Squared Error: 1.922493e+00. Time Taken: 0.268542s
+  Iteration: 4. Squared Error: 2.652001e-01. Time Taken: 0.291079s
+  Iteration: 5. Squared Error: 5.136293e-02. Time Taken: 0.295511s
+  Iteration: 6. Squared Error: 1.104374e-02. Time Taken: 0.307569s
+  Iteration: 7. Squared Error: 2.244631e-03. Time Taken: 0.290240s
+  Generating Binary Classifier #8
+  Iteration: 1. Squared Error: 3.665172e+02. Time Taken: 0.268293s
+  Iteration: 2. Squared Error: 1.614973e+02. Time Taken: 0.274268s
+  Iteration: 3. Squared Error: 2.910986e+01. Time Taken: 0.267631s
+  Iteration: 4. Squared Error: 7.194872e+00. Time Taken: 0.301637s
+  Iteration: 5. Squared Error: 1.900239e+00. Time Taken: 0.269630s
+  Iteration: 6. Squared Error: 6.497549e-01. Time Taken: 0.275728s
+  Iteration: 7. Squared Error: 2.658119e-01. Time Taken: 0.263117s
+  Iteration: 8. Squared Error: 1.243215e-01. Time Taken: 0.278422s
+  Iteration: 9. Squared Error: 6.804962e-02. Time Taken: 0.265941s
+  Iteration: 10. Squared Error: 4.132813e-02. Time Taken: 0.263596s
+  Iteration: 11. Squared Error: 2.542385e-02. Time Taken: 0.277132s
+  Generating Binary Classifier #9
+  Iteration: 1. Squared Error: 1.767136e+02. Time Taken: 0.250945s
+  Iteration: 2. Squared Error: 7.549493e+01. Time Taken: 0.246041s
+  Iteration: 3. Squared Error: 1.261439e+01. Time Taken: 0.245257s
+  Iteration: 4. Squared Error: 2.643140e+00. Time Taken: 0.246896s
+  Iteration: 5. Squared Error: 5.683293e-01. Time Taken: 0.292005s
+  Iteration: 6. Squared Error: 1.556238e-01. Time Taken: 0.241282s
+  Iteration: 7. Squared Error: 5.398462e-02. Time Taken: 0.249499s
+  Iteration: 8. Squared Error: 2.178663e-02. Time Taken: 0.268595s
+  Iteration: 9. Squared Error: 8.103226e-03. Time Taken: 0.248638s
+  Generating Binary Classifier #10
+  Iteration: 1. Squared Error: 3.588665e+02. Time Taken: 0.235243s
+  Iteration: 2. Squared Error: 9.154190e+01. Time Taken: 0.241208s
+  Iteration: 3. Squared Error: 1.474905e+01. Time Taken: 0.245023s
+  Iteration: 4. Squared Error: 2.838196e+00. Time Taken: 0.244115s
+  Iteration: 5. Squared Error: 8.906243e-01. Time Taken: 0.245516s
+  Iteration: 6. Squared Error: 3.982886e-01. Time Taken: 0.240615s
+  Iteration: 7. Squared Error: 2.194255e-01. Time Taken: 0.232136s
+  Iteration: 8. Squared Error: 1.356474e-01. Time Taken: 0.238539s
+  Iteration: 9. Squared Error: 9.427739e-02. Time Taken: 0.240527s
+  Iteration: 10. Squared Error: 7.136851e-02. Time Taken: 0.230864s
+  Iteration: 11. Squared Error: 5.321040e-02. Time Taken: 0.254124s
+  Iteration: 12. Squared Error: 3.658906e-02. Time Taken: 0.259774s
+  Iteration: 13. Squared Error: 2.418010e-02. Time Taken: 0.229918s
+  Generating Binary Classifier #11
+  Iteration: 1. Squared Error: 1.809830e+02. Time Taken: 0.223909s
+  Iteration: 2. Squared Error: 9.365502e+01. Time Taken: 0.224344s
+  Iteration: 3. Squared Error: 1.928556e+01. Time Taken: 0.279424s
+  Iteration: 4. Squared Error: 4.968150e+00. Time Taken: 0.251397s
+  Iteration: 5. Squared Error: 1.474649e+00. Time Taken: 0.298329s
+  Iteration: 6. Squared Error: 6.093756e-01. Time Taken: 0.290741s
+  Iteration: 7. Squared Error: 3.366998e-01. Time Taken: 0.328721s
+  Iteration: 8. Squared Error: 1.721859e-01. Time Taken: 0.245292s
+  Iteration: 9. Squared Error: 9.151454e-02. Time Taken: 0.258674s
+  Iteration: 10. Squared Error: 4.739571e-02. Time Taken: 0.290653s
+  Iteration: 11. Squared Error: 2.690009e-02. Time Taken: 0.270484s
+  Iteration: 12. Squared Error: 1.626249e-02. Time Taken: 0.261174s
+  Iteration: 13. Squared Error: 9.987604e-03. Time Taken: 0.250583s
+  Generating Binary Classifier #12
+  Iteration: 1. Squared Error: 3.566484e+02. Time Taken: 0.263169s
+  Iteration: 2. Squared Error: 1.100093e+02. Time Taken: 0.253596s
+  Iteration: 3. Squared Error: 1.280000e+01. Time Taken: 0.250006s
+  Iteration: 4. Squared Error: 1.813250e+00. Time Taken: 0.283377s
+  Iteration: 5. Squared Error: 3.917140e-01. Time Taken: 0.293595s
+  Iteration: 6. Squared Error: 1.042270e-01. Time Taken: 0.322513s
+  Iteration: 7. Squared Error: 2.757510e-02. Time Taken: 0.241087s
+  Generating Binary Classifier #13
+  Iteration: 1. Squared Error: 2.621204e+02. Time Taken: 0.240974s
+  Iteration: 2. Squared Error: 1.121249e+02. Time Taken: 0.237993s
+  Iteration: 3. Squared Error: 2.091378e+01. Time Taken: 0.240977s
+  Iteration: 4. Squared Error: 4.900266e+00. Time Taken: 0.240703s
+  Iteration: 5. Squared Error: 1.244333e+00. Time Taken: 0.230386s
+  Iteration: 6. Squared Error: 3.793990e-01. Time Taken: 0.236750s
+  Iteration: 7. Squared Error: 1.366012e-01. Time Taken: 0.235332s
+  Iteration: 8. Squared Error: 5.741747e-02. Time Taken: 0.233613s
+  Iteration: 9. Squared Error: 2.721537e-02. Time Taken: 0.225341s
+  Iteration: 10. Squared Error: 1.339832e-02. Time Taken: 0.247511s
+  Generating Binary Classifier #14
+  Iteration: 1. Squared Error: 1.077603e+02. Time Taken: 0.248238s
+  Iteration: 2. Squared Error: 5.565974e+01. Time Taken: 0.224696s
+  Iteration: 3. Squared Error: 9.497869e+00. Time Taken: 0.222701s
+  Iteration: 4. Squared Error: 3.144149e+00. Time Taken: 0.215994s
+  Iteration: 5. Squared Error: 1.084026e+00. Time Taken: 0.222615s
+  Iteration: 6. Squared Error: 3.309194e-01. Time Taken: 0.213043s
+  Iteration: 7. Squared Error: 1.282257e-01. Time Taken: 0.218757s
+  Iteration: 8. Squared Error: 5.599147e-02. Time Taken: 0.211466s
+  Iteration: 9. Squared Error: 2.547281e-02. Time Taken: 0.207324s
+  Iteration: 10. Squared Error: 1.128912e-02. Time Taken: 0.203703s
+  Iteration: 11. Squared Error: 4.976906e-03. Time Taken: 0.213965s
+  Generating Binary Classifier #15
+  Iteration: 1. Squared Error: 1.173809e+02. Time Taken: 0.212733s
+  Iteration: 2. Squared Error: 4.572391e+01. Time Taken: 0.215876s
+  Iteration: 3. Squared Error: 8.713904e+00. Time Taken: 0.206508s
+  Iteration: 4. Squared Error: 1.616240e+00. Time Taken: 0.206638s
+  Iteration: 5. Squared Error: 4.616711e-01. Time Taken: 0.209536s
+  Iteration: 6. Squared Error: 1.877481e-01. Time Taken: 0.209947s
+  Iteration: 7. Squared Error: 8.998267e-02. Time Taken: 0.212286s
+  Iteration: 8. Squared Error: 5.081918e-02. Time Taken: 0.227675s
+  Iteration: 9. Squared Error: 3.503975e-02. Time Taken: 0.211039s
+  Iteration: 10. Squared Error: 2.569654e-02. Time Taken: 0.278201s
+  Iteration: 11. Squared Error: 1.728998e-02. Time Taken: 0.233559s
+  Iteration: 12. Squared Error: 1.086925e-02. Time Taken: 0.218881s
+  Iteration: 13. Squared Error: 7.387081e-03. Time Taken: 0.234162s
+  Generating Binary Classifier #16
+  Iteration: 1. Squared Error: 1.530892e+02. Time Taken: 0.224698s
+  Iteration: 2. Squared Error: 3.628715e+01. Time Taken: 0.229137s
+  Iteration: 3. Squared Error: 2.869938e+00. Time Taken: 0.225273s
+  Iteration: 4. Squared Error: 3.827939e-01. Time Taken: 0.224796s
+  Iteration: 5. Squared Error: 7.559020e-02. Time Taken: 0.282408s
+  Iteration: 6. Squared Error: 1.765735e-02. Time Taken: 0.229428s
+  Iteration: 7. Squared Error: 3.455781e-03. Time Taken: 0.228899s
+  Generating Binary Classifier #17
+  Iteration: 1. Squared Error: 1.461621e+02. Time Taken: 0.227422s
+  Iteration: 2. Squared Error: 7.636903e+01. Time Taken: 0.236083s
+  Iteration: 3. Squared Error: 1.389378e+01. Time Taken: 0.227630s
+  Iteration: 4. Squared Error: 4.476572e+00. Time Taken: 0.229309s
+  Iteration: 5. Squared Error: 1.411227e+00. Time Taken: 0.233783s
+  Iteration: 6. Squared Error: 5.856795e-01. Time Taken: 0.253089s
+  Iteration: 7. Squared Error: 2.147254e-01. Time Taken: 0.248269s
+  Iteration: 8. Squared Error: 1.120469e-01. Time Taken: 0.246101s
+  Iteration: 9. Squared Error: 6.023623e-02. Time Taken: 0.244088s
+  Iteration: 10. Squared Error: 3.504098e-02. Time Taken: 0.308300s
+  Iteration: 11. Squared Error: 2.108329e-02. Time Taken: 0.297091s
+  Iteration: 12. Squared Error: 1.318623e-02. Time Taken: 0.351472s
+  Iteration: 13. Squared Error: 8.994257e-03. Time Taken: 0.291141s
+  Generating Binary Classifier #18
+  Iteration: 1. Squared Error: 3.057692e+02. Time Taken: 0.349624s
+  Iteration: 2. Squared Error: 9.555296e+01. Time Taken: 0.415149s
+  Iteration: 3. Squared Error: 1.210829e+01. Time Taken: 0.329736s
+  Iteration: 4. Squared Error: 1.946985e+00. Time Taken: 0.281834s
+  Iteration: 5. Squared Error: 5.324015e-01. Time Taken: 0.291916s
+  Iteration: 6. Squared Error: 2.071704e-01. Time Taken: 0.360918s
+  Iteration: 7. Squared Error: 5.825331e-02. Time Taken: 0.290211s
+  Iteration: 8. Squared Error: 2.256429e-02. Time Taken: 0.295966s
+  Generating Binary Classifier #19
+  Iteration: 1. Squared Error: 2.745103e+02. Time Taken: 0.282173s
+  Iteration: 2. Squared Error: 8.181413e+01. Time Taken: 0.306885s
+  Iteration: 3. Squared Error: 1.154857e+01. Time Taken: 0.282156s
+  Iteration: 4. Squared Error: 2.107879e+00. Time Taken: 0.282006s
+  Iteration: 5. Squared Error: 4.469152e-01. Time Taken: 0.270129s
+  Iteration: 6. Squared Error: 1.061705e-01. Time Taken: 0.311974s
+  Iteration: 7. Squared Error: 2.578059e-02. Time Taken: 0.276817s
+  Iteration: 8. Squared Error: 6.576928e-03. Time Taken: 0.263494s
+  Generating Binary Classifier #20
+  Iteration: 1. Squared Error: 1.292748e+02. Time Taken: 0.305107s
+  Iteration: 2. Squared Error: 3.737821e+01. Time Taken: 0.294675s
+  Iteration: 3. Squared Error: 4.499039e+00. Time Taken: 0.310961s
+  Iteration: 4. Squared Error: 7.641774e-01. Time Taken: 0.266571s
+  Iteration: 5. Squared Error: 2.232492e-01. Time Taken: 0.273081s
+  Iteration: 6. Squared Error: 8.696038e-02. Time Taken: 0.257152s
+  Iteration: 7. Squared Error: 4.446973e-02. Time Taken: 0.264913s
+  Iteration: 8. Squared Error: 2.271393e-02. Time Taken: 0.298869s
+  Iteration: 9. Squared Error: 1.057845e-02. Time Taken: 0.260839s
+  Iteration: 10. Squared Error: 4.574961e-03. Time Taken: 0.283308s
+Training completed. Total Time Taken: 49.005534s
+Classification completed. Total Time Taken: 0.020929s
+
+Regularizatin Parameter: 0.100000
+Max F1 Score as a pure binary classifier:
+      talk.religion.misc	0.470588
+         sci.electronics	0.452830
+   comp.sys.mac.hardware	0.545455
+   talk.politics.mideast	0.909091
+      talk.politics.misc	0.451613
+      talk.politics.guns	0.529412
+  soc.religion.christian	0.979592
+                 sci.med	0.653061
+comp.sys.ibm.pc.hardware	0.430108
+             alt.atheism	0.636364
+          comp.windows.x	0.792453
+               sci.space	0.790698
+        rec.sport.hockey	0.888889
+ comp.os.ms-windows.misc	0.514286
+      rec.sport.baseball	0.800000
+               sci.crypt	0.952381
+           comp.graphics	0.634615
+         rec.motorcycles	0.800000
+            misc.forsale	0.737374
+               rec.autos	0.509804
+
+                 Average	0.673931
+
+Regularization parameter: 0.500000 (4/6)
+Begining iteration...
+  Generating Binary Classifier #1
+  Iteration: 1. Squared Error: 4.156971e+01. Time Taken: 0.262422s
+  Iteration: 2. Squared Error: 5.450545e+00. Time Taken: 0.247284s
+  Iteration: 3. Squared Error: 1.002293e-01. Time Taken: 0.243850s
+  Iteration: 4. Squared Error: 3.887276e-03. Time Taken: 0.236947s
+  Iteration: 5. Squared Error: 1.099445e-04. Time Taken: 0.241449s
+  Generating Binary Classifier #2
+  Iteration: 1. Squared Error: 9.105268e+01. Time Taken: 0.252541s
+  Iteration: 2. Squared Error: 1.461426e+01. Time Taken: 0.232850s
+  Iteration: 3. Squared Error: 3.700288e-01. Time Taken: 0.229591s
+  Iteration: 4. Squared Error: 2.069949e-02. Time Taken: 0.219893s
+  Iteration: 5. Squared Error: 7.093715e-04. Time Taken: 0.223511s
+  Generating Binary Classifier #3
+  Iteration: 1. Squared Error: 3.582994e+01. Time Taken: 0.221610s
+  Iteration: 2. Squared Error: 6.510075e+00. Time Taken: 0.219638s
+  Iteration: 3. Squared Error: 9.767076e-02. Time Taken: 0.221783s
+  Iteration: 4. Squared Error: 1.269848e-02. Time Taken: 0.217455s
+  Iteration: 5. Squared Error: 6.379881e-04. Time Taken: 0.209913s
+  Generating Binary Classifier #4
+  Iteration: 1. Squared Error: 1.184404e+02. Time Taken: 0.207758s
+  Iteration: 2. Squared Error: 4.258750e+01. Time Taken: 0.217364s
+  Iteration: 3. Squared Error: 2.513264e+00. Time Taken: 0.225326s
+  Iteration: 4. Squared Error: 1.575198e-01. Time Taken: 0.219748s
+  Iteration: 5. Squared Error: 2.174540e-02. Time Taken: 0.212746s
+  Iteration: 6. Squared Error: 3.038141e-03. Time Taken: 0.264163s
+  Generating Binary Classifier #5
+  Iteration: 1. Squared Error: 4.068011e+01. Time Taken: 0.208413s
+  Iteration: 2. Squared Error: 1.179963e+01. Time Taken: 0.224500s
+  Iteration: 3. Squared Error: 1.100110e+00. Time Taken: 0.265684s
+  Iteration: 4. Squared Error: 5.816128e-02. Time Taken: 0.243504s
+  Iteration: 5. Squared Error: 1.041101e-02. Time Taken: 0.238187s
+  Iteration: 6. Squared Error: 1.518196e-03. Time Taken: 0.286572s
+  Generating Binary Classifier #6
+  Iteration: 1. Squared Error: 5.265228e+01. Time Taken: 0.291352s
+  Iteration: 2. Squared Error: 1.291657e+01. Time Taken: 0.272154s
+  Iteration: 3. Squared Error: 3.440706e-01. Time Taken: 0.287880s
+  Iteration: 4. Squared Error: 5.632485e-02. Time Taken: 0.320927s
+  Iteration: 5. Squared Error: 5.356416e-03. Time Taken: 0.322605s
+  Iteration: 6. Squared Error: 7.647485e-04. Time Taken: 0.252682s
+  Generating Binary Classifier #7
+  Iteration: 1. Squared Error: 1.207651e+01. Time Taken: 0.248599s
+  Iteration: 2. Squared Error: 8.077981e-01. Time Taken: 0.246050s
+  Iteration: 3. Squared Error: 5.344785e-03. Time Taken: 0.246974s
+  Iteration: 4. Squared Error: 1.871241e-04. Time Taken: 0.311239s
+  Generating Binary Classifier #8
+  Iteration: 1. Squared Error: 1.073676e+02. Time Taken: 0.325875s
+  Iteration: 2. Squared Error: 3.114777e+01. Time Taken: 0.322594s
+  Iteration: 3. Squared Error: 1.771665e+00. Time Taken: 0.290824s
+  Iteration: 4. Squared Error: 1.715020e-01. Time Taken: 0.252517s
+  Iteration: 5. Squared Error: 3.215648e-02. Time Taken: 0.293421s
+  Iteration: 6. Squared Error: 6.187591e-03. Time Taken: 0.318639s
+  Generating Binary Classifier #9
+  Iteration: 1. Squared Error: 5.158615e+01. Time Taken: 0.301619s
+  Iteration: 2. Squared Error: 1.340852e+01. Time Taken: 0.249627s
+  Iteration: 3. Squared Error: 6.388990e-01. Time Taken: 0.258008s
+  Iteration: 4. Squared Error: 4.246452e-02. Time Taken: 0.245834s
+  Iteration: 5. Squared Error: 5.771767e-03. Time Taken: 0.235955s
+  Iteration: 6. Squared Error: 4.385784e-04. Time Taken: 0.224484s
+  Generating Binary Classifier #10
+  Iteration: 1. Squared Error: 7.870301e+01. Time Taken: 0.226648s
+  Iteration: 2. Squared Error: 8.531692e+00. Time Taken: 0.222552s
+  Iteration: 3. Squared Error: 2.305129e-01. Time Taken: 0.221305s
+  Iteration: 4. Squared Error: 1.342458e-02. Time Taken: 0.224950s
+  Iteration: 5. Squared Error: 9.098517e-04. Time Taken: 0.220853s
+  Generating Binary Classifier #11
+  Iteration: 1. Squared Error: 6.425773e+01. Time Taken: 0.220882s
+  Iteration: 2. Squared Error: 2.410676e+01. Time Taken: 0.216424s
+  Iteration: 3. Squared Error: 2.352136e+00. Time Taken: 0.215823s
+  Iteration: 4. Squared Error: 3.257864e-01. Time Taken: 0.210965s
+  Iteration: 5. Squared Error: 7.433344e-02. Time Taken: 0.207493s
+  Iteration: 6. Squared Error: 2.528701e-02. Time Taken: 0.203779s
+  Iteration: 7. Squared Error: 6.386559e-03. Time Taken: 0.204672s
+  Iteration: 8. Squared Error: 1.361325e-03. Time Taken: 0.206846s
+  Generating Binary Classifier #12
+  Iteration: 1. Squared Error: 8.145808e+01. Time Taken: 0.198185s
+  Iteration: 2. Squared Error: 1.209682e+01. Time Taken: 0.203548s
+  Iteration: 3. Squared Error: 2.317183e-01. Time Taken: 0.202685s
+  Iteration: 4. Squared Error: 1.169874e-02. Time Taken: 0.201381s
+  Iteration: 5. Squared Error: 4.379061e-04. Time Taken: 0.197270s
+  Generating Binary Classifier #13
+  Iteration: 1. Squared Error: 7.455624e+01. Time Taken: 0.197680s
+  Iteration: 2. Squared Error: 1.738760e+01. Time Taken: 0.199328s
+  Iteration: 3. Squared Error: 6.067546e-01. Time Taken: 0.208878s
+  Iteration: 4. Squared Error: 7.128326e-02. Time Taken: 0.197651s
+  Iteration: 5. Squared Error: 7.094901e-03. Time Taken: 0.200880s
+  Iteration: 6. Squared Error: 8.717906e-04. Time Taken: 0.210656s
+  Generating Binary Classifier #14
+  Iteration: 1. Squared Error: 4.306280e+01. Time Taken: 0.197153s
+  Iteration: 2. Squared Error: 1.347283e+01. Time Taken: 0.194924s
+  Iteration: 3. Squared Error: 1.086741e+00. Time Taken: 0.217318s
+  Iteration: 4. Squared Error: 2.326258e-01. Time Taken: 0.223684s
+  Iteration: 5. Squared Error: 5.216383e-02. Time Taken: 0.269244s
+  Iteration: 6. Squared Error: 1.255498e-02. Time Taken: 0.255608s
+  Iteration: 7. Squared Error: 3.972310e-03. Time Taken: 0.235433s
+  Iteration: 8. Squared Error: 1.634485e-03. Time Taken: 0.212951s
+  Generating Binary Classifier #15
+  Iteration: 1. Squared Error: 3.012203e+01. Time Taken: 0.209701s
+  Iteration: 2. Squared Error: 5.181668e+00. Time Taken: 0.221600s
+  Iteration: 3. Squared Error: 1.310728e-01. Time Taken: 0.214265s
+  Iteration: 4. Squared Error: 9.738181e-03. Time Taken: 0.216627s
+  Iteration: 5. Squared Error: 4.035114e-04. Time Taken: 0.213845s
+  Generating Binary Classifier #16
+  Iteration: 1. Squared Error: 2.565875e+01. Time Taken: 0.208935s
+  Iteration: 2. Squared Error: 1.509222e+00. Time Taken: 0.204130s
+  Iteration: 3. Squared Error: 1.381206e-02. Time Taken: 0.212903s
+  Iteration: 4. Squared Error: 2.541201e-04. Time Taken: 0.216288s
+  Generating Binary Classifier #17
+  Iteration: 1. Squared Error: 5.140936e+01. Time Taken: 0.212120s
+  Iteration: 2. Squared Error: 1.733258e+01. Time Taken: 0.206312s
+  Iteration: 3. Squared Error: 1.747893e+00. Time Taken: 0.212901s
+  Iteration: 4. Squared Error: 3.012440e-01. Time Taken: 0.217828s
+  Iteration: 5. Squared Error: 7.551669e-02. Time Taken: 0.217969s
+  Iteration: 6. Squared Error: 2.569595e-02. Time Taken: 0.226134s
+  Iteration: 7. Squared Error: 1.161744e-02. Time Taken: 0.221222s
+  Iteration: 8. Squared Error: 3.737017e-03. Time Taken: 0.238416s
+  Iteration: 9. Squared Error: 7.972585e-04. Time Taken: 0.227134s
+  Generating Binary Classifier #18
+  Iteration: 1. Squared Error: 7.747910e+01. Time Taken: 0.285131s
+  Iteration: 2. Squared Error: 1.003574e+01. Time Taken: 0.251397s
+  Iteration: 3. Squared Error: 2.535176e-01. Time Taken: 0.239960s
+  Iteration: 4. Squared Error: 1.279982e-02. Time Taken: 0.248675s
+  Iteration: 5. Squared Error: 8.092184e-04. Time Taken: 0.290330s
+  Generating Binary Classifier #19
+  Iteration: 1. Squared Error: 6.773324e+01. Time Taken: 0.245355s
+  Iteration: 2. Squared Error: 8.247887e+00. Time Taken: 0.239750s
+  Iteration: 3. Squared Error: 1.427268e-01. Time Taken: 0.231725s
+  Iteration: 4. Squared Error: 6.322643e-03. Time Taken: 0.296673s
+  Iteration: 5. Squared Error: 2.949984e-04. Time Taken: 0.287148s
+  Generating Binary Classifier #20
+  Iteration: 1. Squared Error: 2.422201e+01. Time Taken: 0.259340s
+  Iteration: 2. Squared Error: 2.374769e+00. Time Taken: 0.270919s
+  Iteration: 3. Squared Error: 3.577216e-02. Time Taken: 0.345478s
+  Iteration: 4. Squared Error: 2.414890e-03. Time Taken: 0.312704s
+  Iteration: 5. Squared Error: 9.176915e-05. Time Taken: 0.236333s
+Training completed. Total Time Taken: 27.637266s
+Classification completed. Total Time Taken: 0.016022s
+
+Regularizatin Parameter: 0.500000
+Max F1 Score as a pure binary classifier:
+      talk.religion.misc	0.500000
+         sci.electronics	0.523810
+   comp.sys.mac.hardware	0.654545
+   talk.politics.mideast	0.925926
+      talk.politics.misc	0.437500
+      talk.politics.guns	0.571429
+  soc.religion.christian	0.958333
+                 sci.med	0.808511
+comp.sys.ibm.pc.hardware	0.522727
+             alt.atheism	0.666667
+          comp.windows.x	0.819048
+               sci.space	0.833333
+        rec.sport.hockey	0.946237
+ comp.os.ms-windows.misc	0.550000
+      rec.sport.baseball	0.840000
+               sci.crypt	0.952381
+           comp.graphics	0.640777
+         rec.motorcycles	0.900000
+            misc.forsale	0.777143
+               rec.autos	0.590164
+
+                 Average	0.720926
+
+Regularization parameter: 1.000000 (5/6)
+Begining iteration...
+  Generating Binary Classifier #1
+  Iteration: 1. Squared Error: 1.858739e+01. Time Taken: 0.232410s
+  Iteration: 2. Squared Error: 1.294206e+00. Time Taken: 0.228601s
+  Iteration: 3. Squared Error: 7.555864e-03. Time Taken: 0.223903s
+  Iteration: 4. Squared Error: 2.334885e-04. Time Taken: 0.223023s
+  Generating Binary Classifier #2
+  Iteration: 1. Squared Error: 4.154730e+01. Time Taken: 0.220678s
+  Iteration: 2. Squared Error: 4.247506e+00. Time Taken: 0.220650s
+  Iteration: 3. Squared Error: 8.615576e-02. Time Taken: 0.219236s
+  Iteration: 4. Squared Error: 2.468797e-03. Time Taken: 0.219016s
+  Generating Binary Classifier #3
+  Iteration: 1. Squared Error: 1.747060e+01. Time Taken: 0.215200s
+  Iteration: 2. Squared Error: 1.633670e+00. Time Taken: 0.228718s
+  Iteration: 3. Squared Error: 1.643623e-02. Time Taken: 0.209909s
+  Iteration: 4. Squared Error: 5.839247e-04. Time Taken: 0.210229s
+  Generating Binary Classifier #4
+  Iteration: 1. Squared Error: 6.623140e+01. Time Taken: 0.204752s
+  Iteration: 2. Squared Error: 1.932847e+01. Time Taken: 0.216309s
+  Iteration: 3. Squared Error: 4.662412e-01. Time Taken: 0.213189s
+  Iteration: 4. Squared Error: 5.301491e-02. Time Taken: 0.211079s
+  Iteration: 5. Squared Error: 7.529862e-03. Time Taken: 0.203444s
+  Iteration: 6. Squared Error: 3.724937e-04. Time Taken: 0.206408s
+  Generating Binary Classifier #5
+  Iteration: 1. Squared Error: 2.145588e+01. Time Taken: 0.206184s
+  Iteration: 2. Squared Error: 4.822379e+00. Time Taken: 0.207859s
+  Iteration: 3. Squared Error: 1.749361e-01. Time Taken: 0.201801s
+  Iteration: 4. Squared Error: 7.753630e-03. Time Taken: 0.204524s
+  Iteration: 5. Squared Error: 6.619986e-04. Time Taken: 0.319902s
+  Generating Binary Classifier #6
+  Iteration: 1. Squared Error: 2.633372e+01. Time Taken: 0.265685s
+  Iteration: 2. Squared Error: 4.207984e+00. Time Taken: 0.320674s
+  Iteration: 3. Squared Error: 9.435124e-02. Time Taken: 0.269270s
+  Iteration: 4. Squared Error: 6.015030e-03. Time Taken: 0.237815s
+  Iteration: 5. Squared Error: 3.388236e-04. Time Taken: 0.224489s
+  Generating Binary Classifier #7
+  Iteration: 1. Squared Error: 4.796060e+00. Time Taken: 0.218805s
+  Iteration: 2. Squared Error: 1.201704e-01. Time Taken: 0.224160s
+  Iteration: 3. Squared Error: 4.184585e-04. Time Taken: 0.256271s
+  Iteration: 4. Squared Error: 1.628234e-06. Time Taken: 0.343726s
+  Generating Binary Classifier #8
+  Iteration: 1. Squared Error: 5.618311e+01. Time Taken: 0.306411s
+  Iteration: 2. Squared Error: 1.119344e+01. Time Taken: 0.244929s
+  Iteration: 3. Squared Error: 2.657308e-01. Time Taken: 0.312829s
+  Iteration: 4. Squared Error: 3.419060e-02. Time Taken: 0.256757s
+  Iteration: 5. Squared Error: 2.516781e-03. Time Taken: 0.238297s
+  Generating Binary Classifier #9
+  Iteration: 1. Squared Error: 2.584603e+01. Time Taken: 0.236437s
+  Iteration: 2. Squared Error: 4.622476e+00. Time Taken: 0.243079s
+  Iteration: 3. Squared Error: 8.885040e-02. Time Taken: 0.238820s
+  Iteration: 4. Squared Error: 1.058932e-02. Time Taken: 0.229372s
+  Iteration: 5. Squared Error: 3.403606e-04. Time Taken: 0.313012s
+  Generating Binary Classifier #10
+  Iteration: 1. Squared Error: 3.255880e+01. Time Taken: 0.293726s
+  Iteration: 2. Squared Error: 1.762431e+00. Time Taken: 0.279593s
+  Iteration: 3. Squared Error: 2.371979e-02. Time Taken: 0.232708s
+  Iteration: 4. Squared Error: 2.845154e-04. Time Taken: 0.227909s
+  Generating Binary Classifier #11
+  Iteration: 1. Squared Error: 3.699647e+01. Time Taken: 0.235705s
+  Iteration: 2. Squared Error: 9.949653e+00. Time Taken: 0.232989s
+  Iteration: 3. Squared Error: 4.718419e-01. Time Taken: 0.244370s
+  Iteration: 4. Squared Error: 5.949360e-02. Time Taken: 0.234516s
+  Iteration: 5. Squared Error: 1.090688e-02. Time Taken: 0.227448s
+  Iteration: 6. Squared Error: 1.081485e-03. Time Taken: 0.222778s
+  Generating Binary Classifier #12
+  Iteration: 1. Squared Error: 3.644274e+01. Time Taken: 0.226265s
+  Iteration: 2. Squared Error: 3.526482e+00. Time Taken: 0.218099s
+  Iteration: 3. Squared Error: 3.939483e-02. Time Taken: 0.215299s
+  Iteration: 4. Squared Error: 2.061844e-03. Time Taken: 0.216045s
+  Generating Binary Classifier #13
+  Iteration: 1. Squared Error: 3.580495e+01. Time Taken: 0.206529s
+  Iteration: 2. Squared Error: 5.185693e+00. Time Taken: 0.226318s
+  Iteration: 3. Squared Error: 1.020832e-01. Time Taken: 0.211919s
+  Iteration: 4. Squared Error: 7.069701e-03. Time Taken: 0.204778s
+  Iteration: 5. Squared Error: 3.165461e-04. Time Taken: 0.206603s
+  Generating Binary Classifier #14
+  Iteration: 1. Squared Error: 2.707682e+01. Time Taken: 0.203030s
+  Iteration: 2. Squared Error: 6.045935e+00. Time Taken: 0.200653s
+  Iteration: 3. Squared Error: 4.111939e-01. Time Taken: 0.203010s
+  Iteration: 4. Squared Error: 4.359108e-02. Time Taken: 0.200076s
+  Iteration: 5. Squared Error: 6.505916e-03. Time Taken: 0.200765s
+  Iteration: 6. Squared Error: 1.627801e-03. Time Taken: 0.203460s
+  Generating Binary Classifier #15
+  Iteration: 1. Squared Error: 1.359887e+01. Time Taken: 0.204347s
+  Iteration: 2. Squared Error: 1.343634e+00. Time Taken: 0.210279s
+  Iteration: 3. Squared Error: 1.425043e-02. Time Taken: 0.209021s
+  Iteration: 4. Squared Error: 5.432151e-04. Time Taken: 0.199346s
+  Generating Binary Classifier #16
+  Iteration: 1. Squared Error: 9.131604e+00. Time Taken: 0.204932s
+  Iteration: 2. Squared Error: 2.107469e-01. Time Taken: 0.199000s
+  Iteration: 3. Squared Error: 1.088287e-03. Time Taken: 0.194517s
+  Iteration: 4. Squared Error: 2.468675e-06. Time Taken: 0.198394s
+  Generating Binary Classifier #17
+  Iteration: 1. Squared Error: 2.928335e+01. Time Taken: 0.192685s
+  Iteration: 2. Squared Error: 8.127841e+00. Time Taken: 0.208279s
+  Iteration: 3. Squared Error: 5.445230e-01. Time Taken: 0.208651s
+  Iteration: 4. Squared Error: 7.354441e-02. Time Taken: 0.203580s
+  Iteration: 5. Squared Error: 2.244694e-02. Time Taken: 0.202305s
+  Iteration: 6. Squared Error: 4.661880e-03. Time Taken: 0.197248s
+  Iteration: 7. Squared Error: 5.316822e-04. Time Taken: 0.193086s
+  Generating Binary Classifier #18
+  Iteration: 1. Squared Error: 3.624447e+01. Time Taken: 0.194737s
+  Iteration: 2. Squared Error: 2.565765e+00. Time Taken: 0.197966s
+  Iteration: 3. Squared Error: 3.135092e-02. Time Taken: 0.198917s
+  Iteration: 4. Squared Error: 6.207753e-04. Time Taken: 0.193585s
+  Generating Binary Classifier #19
+  Iteration: 1. Squared Error: 2.894673e+01. Time Taken: 0.193296s
+  Iteration: 2. Squared Error: 1.941797e+00. Time Taken: 0.211253s
+  Iteration: 3. Squared Error: 1.332207e-02. Time Taken: 0.196154s
+  Iteration: 4. Squared Error: 2.407115e-04. Time Taken: 0.199229s
+  Generating Binary Classifier #20
+  Iteration: 1. Squared Error: 9.164265e+00. Time Taken: 0.196179s
+  Iteration: 2. Squared Error: 4.062712e-01. Time Taken: 0.196029s
+  Iteration: 3. Squared Error: 3.664539e-03. Time Taken: 0.199363s
+  Iteration: 4. Squared Error: 3.287191e-05. Time Taken: 0.196531s
+Training completed. Total Time Taken: 21.364394s
+Classification completed. Total Time Taken: 0.014899s
+
+Regularizatin Parameter: 1.000000
+Max F1 Score as a pure binary classifier:
+      talk.religion.misc	0.470588
+         sci.electronics	0.520000
+   comp.sys.mac.hardware	0.756757
+   talk.politics.mideast	0.928571
+      talk.politics.misc	0.424242
+      talk.politics.guns	0.666667
+  soc.religion.christian	0.958333
+                 sci.med	0.816327
+comp.sys.ibm.pc.hardware	0.523810
+             alt.atheism	0.705882
+          comp.windows.x	0.859813
+               sci.space	0.844444
+        rec.sport.hockey	0.947368
+ comp.os.ms-windows.misc	0.704545
+      rec.sport.baseball	0.823529
+               sci.crypt	0.952381
+           comp.graphics	0.637931
+         rec.motorcycles	0.894737
+            misc.forsale	0.781609
+               rec.autos	0.628571
+
+                 Average	0.742305
+
+Regularization parameter: 10.000000 (6/6)
+Begining iteration...
+  Generating Binary Classifier #1
+  Iteration: 1. Squared Error: 5.056301e-01. Time Taken: 0.209105s
+  Iteration: 2. Squared Error: 1.993183e-03. Time Taken: 0.206563s
+  Iteration: 3. Squared Error: 2.259514e-06. Time Taken: 0.210337s
+  Generating Binary Classifier #2
+  Iteration: 1. Squared Error: 1.248103e+00. Time Taken: 0.207106s
+  Iteration: 2. Squared Error: 1.214249e-02. Time Taken: 0.210663s
+  Iteration: 3. Squared Error: 6.804634e-05. Time Taken: 0.211009s
+  Generating Binary Classifier #3
+  Iteration: 1. Squared Error: 5.771397e-01. Time Taken: 0.212164s
+  Iteration: 2. Squared Error: 2.175854e-03. Time Taken: 0.207415s
+  Iteration: 3. Squared Error: 3.024681e-06. Time Taken: 0.218939s
+  Generating Binary Classifier #4
+  Iteration: 1. Squared Error: 4.588790e+00. Time Taken: 0.211655s
+  Iteration: 2. Squared Error: 1.432331e-01. Time Taken: 0.205103s
+  Iteration: 3. Squared Error: 1.011537e-03. Time Taken: 0.207710s
+  Iteration: 4. Squared Error: 1.022496e-06. Time Taken: 0.208569s
+  Generating Binary Classifier #5
+  Iteration: 1. Squared Error: 1.215525e+00. Time Taken: 0.202565s
+  Iteration: 2. Squared Error: 4.178204e-02. Time Taken: 0.205804s
+  Iteration: 3. Squared Error: 3.245581e-04. Time Taken: 0.202003s
+  Iteration: 4. Squared Error: 4.867818e-07. Time Taken: 0.199467s
+  Generating Binary Classifier #6
+  Iteration: 1. Squared Error: 8.547994e-01. Time Taken: 0.206614s
+  Iteration: 2. Squared Error: 8.432482e-03. Time Taken: 0.202439s
+  Iteration: 3. Squared Error: 4.347213e-05. Time Taken: 0.196891s
+  Generating Binary Classifier #7
+  Iteration: 1. Squared Error: 1.032071e-01. Time Taken: 0.214258s
+  Iteration: 2. Squared Error: 4.519207e-05. Time Taken: 0.199547s
+  Iteration: 3. Squared Error: 6.801839e-09. Time Taken: 0.200885s
+  Generating Binary Classifier #8
+  Iteration: 1. Squared Error: 2.479608e+00. Time Taken: 0.196502s
+  Iteration: 2. Squared Error: 4.166264e-02. Time Taken: 0.198084s
+  Iteration: 3. Squared Error: 1.469284e-04. Time Taken: 0.195245s
+  Generating Binary Classifier #9
+  Iteration: 1. Squared Error: 9.875641e-01. Time Taken: 0.194325s
+  Iteration: 2. Squared Error: 1.167552e-02. Time Taken: 0.202439s
+  Iteration: 3. Squared Error: 4.493475e-05. Time Taken: 0.213256s
+  Generating Binary Classifier #10
+  Iteration: 1. Squared Error: 7.780120e-01. Time Taken: 0.206601s
+  Iteration: 2. Squared Error: 2.179624e-03. Time Taken: 0.211875s
+  Iteration: 3. Squared Error: 1.838460e-06. Time Taken: 0.202123s
+  Generating Binary Classifier #11
+  Iteration: 1. Squared Error: 1.943231e+00. Time Taken: 0.211844s
+  Iteration: 2. Squared Error: 5.030027e-02. Time Taken: 0.197371s
+  Iteration: 3. Squared Error: 4.332212e-04. Time Taken: 0.204821s
+  Iteration: 4. Squared Error: 7.834762e-07. Time Taken: 0.196598s
+  Generating Binary Classifier #12
+  Iteration: 1. Squared Error: 1.070906e+00. Time Taken: 0.207057s
+  Iteration: 2. Squared Error: 5.778270e-03. Time Taken: 0.204452s
+  Iteration: 3. Squared Error: 1.306404e-05. Time Taken: 0.203585s
+  Generating Binary Classifier #13
+  Iteration: 1. Squared Error: 1.017045e+00. Time Taken: 0.204569s
+  Iteration: 2. Squared Error: 7.349556e-03. Time Taken: 0.199374s
+  Iteration: 3. Squared Error: 2.771927e-05. Time Taken: 0.200770s
+  Generating Binary Classifier #14
+  Iteration: 1. Squared Error: 1.961837e+00. Time Taken: 0.197017s
+  Iteration: 2. Squared Error: 4.863376e-02. Time Taken: 0.203258s
+  Iteration: 3. Squared Error: 2.147721e-04. Time Taken: 0.198227s
+  Iteration: 4. Squared Error: 4.024167e-07. Time Taken: 0.200954s
+  Generating Binary Classifier #15
+  Iteration: 1. Squared Error: 3.381085e-01. Time Taken: 0.196699s
+  Iteration: 2. Squared Error: 1.550332e-03. Time Taken: 0.207542s
+  Iteration: 3. Squared Error: 2.476048e-06. Time Taken: 0.199415s
+  Generating Binary Classifier #16
+  Iteration: 1. Squared Error: 1.383117e-01. Time Taken: 0.194337s
+  Iteration: 2. Squared Error: 5.824794e-05. Time Taken: 0.196841s
+  Iteration: 3. Squared Error: 1.144053e-08. Time Taken: 0.203201s
+  Generating Binary Classifier #17
+  Iteration: 1. Squared Error: 1.763365e+00. Time Taken: 0.196944s
+  Iteration: 2. Squared Error: 6.259101e-02. Time Taken: 0.193178s
+  Iteration: 3. Squared Error: 6.809955e-04. Time Taken: 0.195988s
+  Iteration: 4. Squared Error: 1.665630e-06. Time Taken: 0.202628s
+  Generating Binary Classifier #18
+  Iteration: 1. Squared Error: 1.090938e+00. Time Taken: 0.203519s
+  Iteration: 2. Squared Error: 3.771936e-03. Time Taken: 0.201150s
+  Iteration: 3. Squared Error: 4.285431e-06. Time Taken: 0.198664s
+  Generating Binary Classifier #19
+  Iteration: 1. Squared Error: 6.208492e-01. Time Taken: 0.205804s
+  Iteration: 2. Squared Error: 1.304716e-03. Time Taken: 0.205611s
+  Iteration: 3. Squared Error: 1.012441e-06. Time Taken: 0.206252s
+  Generating Binary Classifier #20
+  Iteration: 1. Squared Error: 1.519398e-01. Time Taken: 0.207140s
+  Iteration: 2. Squared Error: 1.440215e-04. Time Taken: 0.203440s
+  Iteration: 3. Squared Error: 6.443329e-08. Time Taken: 0.198185s
+Training completed. Total Time Taken: 13.523385s
+Classification completed. Total Time Taken: 0.014054s
+
+Regularizatin Parameter: 10.000000
+Max F1 Score as a pure binary classifier:
+      talk.religion.misc	0.444444
+         sci.electronics	0.509804
+   comp.sys.mac.hardware	0.773585
+   talk.politics.mideast	0.945455
+      talk.politics.misc	0.413793
+      talk.politics.guns	0.733333
+  soc.religion.christian	0.941176
+                 sci.med	0.826087
+comp.sys.ibm.pc.hardware	0.559140
+             alt.atheism	0.750000
+          comp.windows.x	0.864865
+               sci.space	0.833333
+        rec.sport.hockey	0.957447
+ comp.os.ms-windows.misc	0.693878
+      rec.sport.baseball	0.830189
+               sci.crypt	0.930233
+           comp.graphics	0.721311
+         rec.motorcycles	0.871795
+            misc.forsale	0.808743
+               rec.autos	0.656250
+
+                 Average	0.753243
+
+
+Best regularization parameter found: 10.000000
+Training the classifier...
+  Generating Binary Classifier #1
+  Iteration: 1. Squared Error: 6.899027e-01. Time Taken: 0.261742s
+  Iteration: 2. Squared Error: 3.565343e-03. Time Taken: 0.261773s
+  Iteration: 3. Squared Error: 5.168941e-06. Time Taken: 0.265044s
+  Generating Binary Classifier #2
+  Iteration: 1. Squared Error: 2.523724e+00. Time Taken: 0.268858s
+  Iteration: 2. Squared Error: 9.530273e-02. Time Taken: 0.277174s
+  Iteration: 3. Squared Error: 5.714947e-04. Time Taken: 0.267697s
+  Iteration: 4. Squared Error: 1.832623e-06. Time Taken: 0.272993s
+  Generating Binary Classifier #3
+  Iteration: 1. Squared Error: 4.510620e-01. Time Taken: 0.266287s
+  Iteration: 2. Squared Error: 2.495083e-03. Time Taken: 0.271009s
+  Iteration: 3. Squared Error: 5.807117e-06. Time Taken: 0.264929s
+  Generating Binary Classifier #4
+  Iteration: 1. Squared Error: 1.676751e+00. Time Taken: 0.271088s
+  Iteration: 2. Squared Error: 7.227357e-02. Time Taken: 0.251878s
+  Iteration: 3. Squared Error: 5.896295e-04. Time Taken: 0.257923s
+  Iteration: 4. Squared Error: 7.128082e-07. Time Taken: 0.263919s
+  Generating Binary Classifier #5
+  Iteration: 1. Squared Error: 1.149324e+00. Time Taken: 0.265894s
+  Iteration: 2. Squared Error: 1.042996e-02. Time Taken: 0.283366s
+  Iteration: 3. Squared Error: 3.996799e-05. Time Taken: 0.282187s
+  Generating Binary Classifier #6
+  Iteration: 1. Squared Error: 2.992615e+00. Time Taken: 0.285626s
+  Iteration: 2. Squared Error: 1.218084e-01. Time Taken: 0.279671s
+  Iteration: 3. Squared Error: 1.454330e-03. Time Taken: 0.283336s
+  Iteration: 4. Squared Error: 3.564862e-06. Time Taken: 0.331097s
+  Generating Binary Classifier #7
+  Iteration: 1. Squared Error: 1.043104e+00. Time Taken: 0.291474s
+  Iteration: 2. Squared Error: 3.347398e-03. Time Taken: 0.281088s
+  Iteration: 3. Squared Error: 2.888712e-06. Time Taken: 0.289012s
+  Generating Binary Classifier #8
+  Iteration: 1. Squared Error: 1.561199e-01. Time Taken: 0.285352s
+  Iteration: 2. Squared Error: 1.488431e-04. Time Taken: 0.340026s
+  Iteration: 3. Squared Error: 6.670471e-08. Time Taken: 0.310545s
+  Generating Binary Classifier #9
+  Iteration: 1. Squared Error: 1.316828e+00. Time Taken: 0.342861s
+  Iteration: 2. Squared Error: 1.975508e-02. Time Taken: 0.304824s
+  Iteration: 3. Squared Error: 1.210526e-04. Time Taken: 0.341334s
+  Iteration: 4. Squared Error: 1.933543e-07. Time Taken: 0.345356s
+  Generating Binary Classifier #10
+  Iteration: 1. Squared Error: 3.382414e+00. Time Taken: 0.464043s
+  Iteration: 2. Squared Error: 9.814323e-02. Time Taken: 0.427696s
+  Iteration: 3. Squared Error: 6.049792e-04. Time Taken: 0.330873s
+  Iteration: 4. Squared Error: 1.332427e-06. Time Taken: 0.417115s
+  Generating Binary Classifier #11
+  Iteration: 1. Squared Error: 1.114612e+00. Time Taken: 0.331015s
+  Iteration: 2. Squared Error: 6.511430e-03. Time Taken: 0.329133s
+  Iteration: 3. Squared Error: 1.569754e-05. Time Taken: 0.374037s
+  Generating Binary Classifier #12
+  Iteration: 1. Squared Error: 1.245985e+00. Time Taken: 0.384384s
+  Iteration: 2. Squared Error: 8.614734e-03. Time Taken: 0.335121s
+  Iteration: 3. Squared Error: 3.048764e-05. Time Taken: 0.338463s
+  Generating Binary Classifier #13
+  Iteration: 1. Squared Error: 8.255963e-01. Time Taken: 0.314264s
+  Iteration: 2. Squared Error: 3.642923e-03. Time Taken: 0.347063s
+  Iteration: 3. Squared Error: 5.617352e-06. Time Taken: 0.314644s
+  Generating Binary Classifier #14
+  Iteration: 1. Squared Error: 1.771237e+00. Time Taken: 0.301627s
+  Iteration: 2. Squared Error: 1.993955e-02. Time Taken: 0.303458s
+  Iteration: 3. Squared Error: 1.547616e-04. Time Taken: 0.294824s
+  Generating Binary Classifier #15
+  Iteration: 1. Squared Error: 1.662623e+00. Time Taken: 0.287744s
+  Iteration: 2. Squared Error: 8.520234e-03. Time Taken: 0.281964s
+  Iteration: 3. Squared Error: 1.459678e-05. Time Taken: 0.283234s
+  Generating Binary Classifier #16
+  Iteration: 1. Squared Error: 1.770619e-01. Time Taken: 0.280318s
+  Iteration: 2. Squared Error: 1.759461e-04. Time Taken: 0.281196s
+  Iteration: 3. Squared Error: 8.289878e-08. Time Taken: 0.272455s
+  Generating Binary Classifier #17
+  Iteration: 1. Squared Error: 7.260834e-01. Time Taken: 0.274686s
+  Iteration: 2. Squared Error: 1.654358e-03. Time Taken: 0.278968s
+  Iteration: 3. Squared Error: 1.618567e-06. Time Taken: 0.275068s
+  Generating Binary Classifier #18
+  Iteration: 1. Squared Error: 2.590701e+00. Time Taken: 0.305343s
+  Iteration: 2. Squared Error: 1.398826e-01. Time Taken: 0.273746s
+  Iteration: 3. Squared Error: 1.693595e-03. Time Taken: 0.276008s
+  Iteration: 4. Squared Error: 1.100049e-05. Time Taken: 0.274250s
+  Generating Binary Classifier #19
+  Iteration: 1. Squared Error: 1.754863e-01. Time Taken: 0.274499s
+  Iteration: 2. Squared Error: 9.151620e-05. Time Taken: 0.271324s
+  Iteration: 3. Squared Error: 2.571264e-08. Time Taken: 0.268619s
+  Generating Binary Classifier #20
+  Iteration: 1. Squared Error: 5.675451e+00. Time Taken: 0.275660s
+  Iteration: 2. Squared Error: 1.947492e-01. Time Taken: 0.270935s
+  Iteration: 3. Squared Error: 1.699976e-03. Time Taken: 0.272219s
+  Iteration: 4. Squared Error: 2.518344e-06. Time Taken: 0.276248s
+Training completed. Total Time Taken: 20.409410s
+Classifying the test documents...
+Performing classification evaluation...
+
+Confusion Matrix:
+       Predicted			Actual
+             alt.atheism	10	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	
+           comp.graphics	0	187	9	17	3	17	1	1	0	0	0	0	7	5	3	0	0	0	0	0	
+ comp.os.ms-windows.misc	0	16	161	24	1	18	3	2	1	0	0	1	4	0	0	0	0	0	0	1	
+comp.sys.ibm.pc.hardware	0	7	15	135	10	3	8	2	0	0	0	0	15	3	0	0	1	0	0	0	
+   comp.sys.mac.hardware	0	14	4	10	182	0	7	3	0	0	0	0	11	1	5	0	1	0	0	0	
+          comp.windows.x	0	14	14	13	4	239	0	1	0	0	0	1	6	2	1	0	1	0	2	2	
+            misc.forsale	1	12	6	37	24	3	381	14	13	4	1	1	27	7	5	0	2	0	5	3	
+               rec.autos	1	4	4	6	5	2	9	82	3	2	4	0	7	1	1	0	1	0	3	2	
+         rec.motorcycles	0	1	0	1	0	1	4	2	60	1	0	0	0	1	0	0	0	0	4	0	
+      rec.sport.baseball	1	0	0	2	1	2	0	2	0	111	0	0	0	1	0	0	0	0	0	0	
+        rec.sport.hockey	3	3	1	3	3	2	3	2	1	12	150	0	6	3	0	0	2	0	3	0	
+               sci.crypt	0	2	1	5	1	1	0	1	1	0	0	90	7	2	0	0	2	0	4	0	
+         sci.electronics	0	1	0	7	1	0	3	3	0	0	0	0	77	3	0	0	0	0	1	0	
+                 sci.med	0	3	1	4	1	0	0	0	0	5	0	1	3	113	0	0	0	0	1	0	
+               sci.space	2	6	2	5	0	2	4	2	1	1	0	0	6	1	142	0	0	0	3	2	
+  soc.religion.christian	12	0	1	1	0	1	2	0	0	1	1	1	0	1	1	149	1	1	9	34	
+      talk.politics.guns	0	0	0	0	1	0	1	1	0	0	0	1	0	1	1	0	54	1	9	1	
+   talk.politics.mideast	2	0	0	1	0	0	0	2	0	2	0	1	2	1	0	0	0	132	14	1	
+      talk.politics.misc	0	0	0	2	0	0	0	1	0	0	0	1	0	0	0	0	0	0	13	1	
+      talk.religion.misc	6	0	0	0	0	2	0	0	0	0	0	0	1	0	0	0	0	0	1	12	
+
+Evaluation:
+                        	Accuracy	Precision	Recall   	F1			Max F1 Score as a pure binary classifier
+             alt.atheism	0.990651	0.769231	0.263158	0.392157	0.527778
+           comp.graphics	0.955971	0.748000	0.692593	0.719231	0.653659
+ comp.os.ms-windows.misc	0.961098	0.693966	0.735160	0.713969	0.658730
+comp.sys.ibm.pc.hardware	0.939083	0.678392	0.494505	0.572034	0.548263
+   comp.sys.mac.hardware	0.966526	0.764706	0.767932	0.766316	0.739669
+          comp.windows.x	0.965320	0.796667	0.815700	0.806071	0.785300
+            misc.forsale	0.936671	0.697802	0.894366	0.783951	0.816234
+               rec.autos	0.971653	0.598540	0.677686	0.635659	0.627273
+         rec.motorcycles	0.989144	0.800000	0.740741	0.769231	0.867925
+      rec.sport.baseball	0.988842	0.925000	0.798561	0.857143	0.829091
+        rec.sport.hockey	0.984017	0.761421	0.961538	0.849858	0.934211
+               sci.crypt	0.989445	0.769231	0.918367	0.837209	0.899471
+         sci.electronics	0.963510	0.802083	0.430168	0.560000	0.546512
+                 sci.med	0.984318	0.856061	0.773973	0.812950	0.747082
+               sci.space	0.983715	0.793296	0.893082	0.840237	0.828479
+  soc.religion.christian	0.979795	0.689815	1.000000	0.816438	0.899329
+      talk.politics.guns	0.991556	0.760563	0.830769	0.794118	0.681159
+   talk.politics.mideast	0.991556	0.835443	0.985075	0.904110	0.940741
+      talk.politics.misc	0.980700	0.722222	0.180556	0.288889	0.448980
+      talk.religion.misc	0.982207	0.545455	0.196721	0.289157	0.448598
+
+          Micro-Averaged	0.974789	0.747889	0.747889	0.747889
+          Macro-Averaged	0.974789	0.750395	0.702533	0.700436	0.721424
+
+        Prediction Score	323.329207	0.097506(avg. per test object)
+
+High-Weighted Tokens:
+
+             alt.atheism	atheism, contradictory, fallacy, darwin, blashephemers, lucifer, walla, maddi, contradictions, theism
+           comp.graphics	pov, graphics, jpeg, animation, tiff, polygon, targa, gif, tga, image
+ comp.os.ms-windows.misc	windows, cica, keele, winqvt, truetype, ini, font, deakin, giz, doublespace
+comp.sys.ibm.pc.hardware	vlb, jumpers, isa, bios, jumper, ide, controller, cyrix, dma, conner
+   comp.sys.mac.hardware	mac, centris, lciii, quadra, duo, powerbook, iisi, pds, nubus, macs
+          comp.windows.x	motif, xterm, lcs, server, xpert, widget, lib, athena, enterpoop, window
+            misc.forsale	sale, shipping, forsale, offer, obo, condition, asking, sega, comics, stereo
+               rec.autos	car, cars, clutch, toyota, civic, maxima, autos, pontiac, opel, brake
+         rec.motorcycles	bike, dod, bikes, motorcycle, yamaha, motorcycles, riding, helmet, kawasaki, splitfires
+      rec.sport.baseball	sox, pitcher, pitching, cubs, rockies, rbi, braves, jays, phillies, yankee
+        rec.sport.hockey	hockey, nhl, playoff, espn, sabres, pts, bruins, isles, playoffs, devils
+               sci.crypt	encryption, clipper, privacy, escrow, nsa, crypto, cryptography, encrypted, wiretap, des
+         sci.electronics	circuit, pcb, voltage, baden, circuits, electronics, mycal, pmp, spice, fiber
+                 sci.med	disease, cancer, patients, doctor, vitamin, medical, diagnosed, bone, syndrome, candida
+               sci.space	space, alaska, shuttle, moon, launch, mars, lunar, spacecraft, orbit, satellite
+  soc.religion.christian	christian, aramis, rutgers, approved, christ, verse, church, catholic, clh, kiefer
+      talk.politics.guns	gun, firearms, batf, weaver, brady, firearm, assault, guns, nra, atf
+   talk.politics.mideast	armenian, armenians, turkish, israel, israeli, jews, arab, armenia, palestinian, turks
+      talk.politics.misc	stephanopoulos, kinsey, drieux, stimulus, optilink, bram, pyotr, duffey, trincoll, girish
+      talk.religion.misc	rosicrucian, sandvik, dangermouse, mikec, zoroastrians, magi, allah, caligiuri, baptize, thine
+
+Collecting classification solution...
+Task Completed.

@@ -1,0 +1,42 @@
+README
+======
+This directory contains files derived from the "Twenty Newsgroups Data Set" at the UCI Machine Learning Repository.
+The files have the following descriptions:
+
+- 20newsgroups_char.clabel:
+  This file contains the names of the 5-character ngrams used as features in the document-charngram matrix "20newsgroups_char.ijv" file.
+
+- 20newsgroups_char.ijv:
+  This file contains the document-5charngram matrix for the dataset and is of the format <i j v>, where:
+       - i is the document ID, as in the "20newsgroups.rlabel" file.
+       - j is the char-ngram ID, as in the "20newsgroups_char.clabel" file.
+       - v is the frequency of feature j in document i.
+
+- 20newsgroups.class:
+  This file contains the class information for the documents and is of the format: <i class>, where:
+       - i is the document ID, as in the "20newsgroups.rlabel" file.
+       - class is the class of document i.
+
+- 20newsgroups_ridge.train:
+  This file contains the IDs of the document to be used in the train phase of the ridge regression classifier.
+
+- 20newsgroups_ridge.val:
+  This file contains the IDs of the document to be used in the validation phase of the ridge regression classifier.
+
+- 20newsgroups.rlabel:
+  This file contains the IDs of the documents for both "20newsgroups_word.ijv" and "20newsgroups_char.ijv" matrix files.
+
+- 20newsgroups.test:
+  This file contains the IDs of the documents to be used in the test phase of the classifier.
+
+- 20newsgroups.train:
+  This file contains the IDs of the documents to be used in the training (learning) phase of the classifier.
+
+- 20newsgroups_word.clabel:
+  This file contains the words used as features in the document-charngram matrix "20newsgroups_word.ijv" file.
+
+- 20newsgroups_word.ijv:
+  This file contains the document-wird matrix for the dataset and is of the format <i j v>, where:
+       - i is the document ID, as in the "20newsgroups.rlabel" file.
+       - j is the word ID, as in the "20newsgroups_word.clabel" file.
+       - v is the frequency of feature j in document i.

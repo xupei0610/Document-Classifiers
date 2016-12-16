@@ -1,0 +1,92 @@
+Parameters:
+  Classifier:      Centroid-Based
+  Input data file: data-files/20newsgroups_word.ijv
+  Training data:   data-files/20newsgroups.train
+  Test data:       data-files/20newsgroups.test
+  Class. data:     data-files/20newsgroups.class
+  Token data:      data-files/20newsgroups_word.clabel
+  Freq. represent: Term Frequency
+  Output file:     log/result_centroid_word_TF_22-52-37_12-14-2016
+Loading data files...
+Training the classifier...
+Training completed. Total Time Taken: 0.0699825s
+Classifying the test documents...
+Classification completed. Total Time Taken: 0.077976s
+Performing classification evaluation...
+
+Confusion Matrix:
+       Predicted			Actual
+             alt.atheism	18	4	5	0	3	2	8	4	3	4	7	3	3	11	3	10	4	8	8	15	
+           comp.graphics	0	115	18	26	18	35	5	7	2	6	3	5	22	10	11	1	2	0	1	0	
+ comp.os.ms-windows.misc	0	9	108	13	1	26	2	0	0	0	0	0	1	0	0	0	0	0	0	0	
+comp.sys.ibm.pc.hardware	0	12	20	108	21	6	16	2	0	0	2	1	15	2	2	0	0	0	0	0	
+   comp.sys.mac.hardware	0	9	5	18	83	2	6	2	0	1	0	1	3	1	1	0	0	0	0	0	
+          comp.windows.x	0	17	11	9	10	127	1	3	0	2	2	2	4	3	0	0	0	1	0	1	
+            misc.forsale	1	30	14	24	28	19	321	16	14	9	6	7	24	11	3	5	3	8	1	4	
+               rec.autos	0	0	2	1	0	1	9	45	0	1	1	0	0	0	1	0	0	0	0	0	
+         rec.motorcycles	1	3	1	3	1	0	6	3	31	4	0	1	1	1	0	0	4	0	0	0	
+      rec.sport.baseball	1	1	1	2	0	2	4	0	2	49	4	0	1	2	0	1	0	0	0	0	
+        rec.sport.hockey	0	0	0	1	0	0	3	0	0	5	104	0	2	0	1	0	0	0	0	0	
+               sci.crypt	0	3	4	2	1	3	1	1	0	1	0	60	0	2	1	0	0	0	0	0	
+         sci.electronics	0	10	4	23	14	12	7	4	0	14	5	4	55	9	4	0	3	1	1	0	
+                 sci.med	0	16	5	11	16	12	12	10	5	7	5	6	17	61	7	8	8	3	4	5	
+               sci.space	0	13	2	1	0	3	6	1	1	0	1	0	1	1	81	0	0	0	0	0	
+  soc.religion.christian	2	0	1	0	0	0	0	0	0	1	0	0	0	0	0	83	0	0	1	1	
+      talk.politics.guns	4	8	10	19	18	23	2	7	11	12	5	3	16	9	15	7	29	3	9	4	
+   talk.politics.mideast	3	12	4	6	12	13	9	9	8	10	6	2	4	9	14	13	7	99	15	8	
+      talk.politics.misc	2	4	2	2	10	5	7	5	1	9	3	2	2	10	7	2	4	7	29	3	
+      talk.religion.misc	6	4	2	4	1	2	1	2	3	4	2	1	8	4	8	19	1	4	3	20	
+
+Evaluation:
+                        	Accuracy	Precision	Recall   	F1			Max F1 Score as a pure binary classifier
+             alt.atheism	0.962304	0.146341	0.473684	0.223602	0.259259
+           comp.graphics	0.901387	0.400697	0.425926	0.412926	0.319635
+ comp.os.ms-windows.misc	0.950844	0.675000	0.493151	0.569921	0.503741
+comp.sys.ibm.pc.hardware	0.920386	0.521739	0.395604	0.450000	0.377604
+   comp.sys.mac.hardware	0.938782	0.628788	0.350211	0.449864	0.435852
+          comp.windows.x	0.930036	0.658031	0.433447	0.522634	0.440506
+            misc.forsale	0.899879	0.585766	0.753521	0.659138	0.603524
+               rec.autos	0.972256	0.737705	0.371901	0.494505	0.450000
+         rec.motorcycles	0.976176	0.516667	0.382716	0.439716	0.465909
+      rec.sport.baseball	0.966526	0.700000	0.352518	0.468900	0.355670
+        rec.sport.hockey	0.980700	0.896552	0.666667	0.764706	0.657143
+               sci.crypt	0.982811	0.759494	0.612245	0.677966	0.530864
+         sci.electronics	0.927925	0.323529	0.307263	0.315186	0.215661
+                 sci.med	0.927021	0.279817	0.417808	0.335165	0.318919
+               sci.space	0.967431	0.729730	0.509434	0.600000	0.563380
+  soc.religion.christian	0.978287	0.932584	0.557047	0.697479	0.782609
+      talk.politics.guns	0.933353	0.135514	0.446154	0.207885	0.252427
+   talk.politics.mideast	0.939988	0.376426	0.738806	0.498741	0.570342
+      talk.politics.misc	0.960796	0.250000	0.402778	0.308511	0.266094
+      talk.religion.misc	0.963812	0.202020	0.327869	0.250000	0.184466
+
+          Micro-Averaged	0.949035	0.490350	0.490350	0.490350
+          Macro-Averaged	0.949035	0.522820	0.470937	0.467342	0.427680
+
+       Precdiction Score	89.314589	0.026934(avg. per test object)
+
+High-Weighted Tokens:
+
+             alt.atheism	you, atheism, god, that, bible, not, your, contradictory, science, who
+           comp.graphics	graphics, any, thanks, format, for, files, image, know, file, would
+ comp.os.ms-windows.misc	windows, dos, max, file, driver, can, thanks, program, problem, any
+comp.sys.ibm.pc.hardware	drive, card, have, with, controller, thanks, motherboard, help, ide, can
+   comp.sys.mac.hardware	mac, apple, what, scsi, thanks, have, with, drive, anyone, can
+          comp.windows.x	mit, window, server, can, motif, any, lcs, edu, application, color
+            misc.forsale	for, sale, edu, offer, shipping, condition, you, all, price, asking
+               rec.autos	car, there, honda, new, cars, about, this, toyota, had, insurance
+         rec.motorcycles	bike, dod, com, motorcycle, about, yamaha, ride, but, bmw, bikes
+      rec.sport.baseball	the, game, won, lost, year, his, baseball, last, sox, games
+        rec.sport.hockey	game, hockey, the, team, games, period, play, playoff, was, nhl
+               sci.crypt	key, clipper, encryption, chip, the, public, government, security, privacy, keys
+         sci.electronics	anyone, any, does, know, can, need, circuit, help, would, how
+                 sci.med	and, she, that, has, this, information, about, her, medical, disease
+               sci.space	space, nasa, the, alaska, moon, earth, launch, gov, station, shuttle
+  soc.religion.christian	christian, rutgers, aramis, approved, god, that, church, you, his, not
+      talk.politics.guns	the, gun, was, they, fbi, waco, law, bill, firearms, government
+   talk.politics.mideast	the, armenian, israel, turkish, were, armenians, their, jews, israeli, people
+      talk.politics.misc	the, that, president, people, who, clinton, they, national, drug, white
+      talk.religion.misc	god, the, that, their, koresh, his, they, utexas, were, what
+
+Collecting classification solution...
+Task Completed.

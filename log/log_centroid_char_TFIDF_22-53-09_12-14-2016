@@ -1,0 +1,92 @@
+Parameters:
+  Classifier:      Centroid-Based
+  Input data file: data-files/20newsgroups_char.ijv
+  Training data:   data-files/20newsgroups.train
+  Test data:       data-files/20newsgroups.test
+  Class. data:     data-files/20newsgroups.class
+  Token data:      data-files/20newsgroups_char.clabel
+  Freq. represent: TF-IDF
+  Output file:     log/result_centroid_char_TFIDF_22-53-09_12-14-2016
+Loading data files...
+Training the classifier...
+Training completed. Total Time Taken: 0.327945s
+Classifying the test documents...
+Classification completed. Total Time Taken: 1.81162s
+Performing classification evaluation...
+
+Confusion Matrix:
+       Predicted			Actual
+             alt.atheism	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	6	
+           comp.graphics	0	213	11	20	5	41	10	5	1	2	1	2	17	11	9	0	1	0	1	1	
+ comp.os.ms-windows.misc	0	18	172	18	5	33	2	2	1	0	0	0	3	0	0	0	0	0	0	0	
+comp.sys.ibm.pc.hardware	0	11	23	183	36	6	21	3	2	0	2	1	21	0	1	0	0	0	0	0	
+   comp.sys.mac.hardware	0	2	2	24	171	2	9	1	1	1	0	0	6	2	0	0	0	0	0	1	
+          comp.windows.x	0	6	9	1	2	203	0	0	0	0	0	0	2	0	1	0	0	1	0	0	
+            misc.forsale	0	4	0	6	12	1	353	9	11	1	0	0	7	0	0	0	0	0	0	0	
+               rec.autos	0	2	0	0	0	0	12	86	8	1	1	0	1	2	3	0	0	0	1	1	
+         rec.motorcycles	0	0	0	2	1	1	2	3	50	2	0	0	1	1	0	0	0	0	0	0	
+      rec.sport.baseball	0	0	0	0	0	0	1	0	1	112	1	0	0	0	0	0	0	0	0	0	
+        rec.sport.hockey	0	0	0	0	0	0	1	0	0	4	148	0	0	0	0	0	1	0	0	0	
+               sci.crypt	0	1	0	0	0	2	0	0	0	0	1	87	1	0	0	0	0	0	2	0	
+         sci.electronics	0	2	2	12	3	2	8	5	0	3	1	3	114	5	1	0	1	0	0	0	
+                 sci.med	0	5	0	2	0	1	1	1	0	3	0	1	1	117	2	0	0	0	0	0	
+               sci.space	1	3	0	0	1	0	2	2	2	1	0	0	2	1	135	0	0	0	1	1	
+  soc.religion.christian	6	0	0	0	0	0	0	0	1	1	0	0	0	0	1	137	0	1	2	18	
+      talk.politics.guns	0	0	0	0	0	0	1	0	0	0	0	2	0	1	2	0	55	0	8	1	
+   talk.politics.mideast	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	120	7	0	
+      talk.politics.misc	1	1	0	2	1	1	1	3	3	5	1	1	1	4	1	2	7	8	49	5	
+      talk.religion.misc	8	2	0	3	0	0	2	1	0	3	0	1	2	2	3	8	0	4	1	27	
+
+Evaluation:
+                        	Accuracy	Precision	Recall   	F1			Max F1 Score as a pure binary classifier
+             alt.atheism	0.992762	0.733333	0.578947	0.647059	0.500000
+           comp.graphics	0.941194	0.606838	0.788889	0.685990	0.641304
+ comp.os.ms-windows.misc	0.961098	0.677165	0.785388	0.727273	0.646552
+comp.sys.ibm.pc.hardware	0.934560	0.590323	0.670330	0.627787	0.547731
+   comp.sys.mac.hardware	0.964717	0.770270	0.721519	0.745098	0.636166
+          comp.windows.x	0.966224	0.902222	0.692833	0.783784	0.757042
+            misc.forsale	0.962606	0.873762	0.828638	0.850602	0.859122
+               rec.autos	0.979795	0.728814	0.710744	0.719665	0.572650
+         rec.motorcycles	0.986731	0.793651	0.617284	0.694444	0.690141
+      rec.sport.baseball	0.990953	0.973913	0.805755	0.881890	0.713725
+        rec.sport.hockey	0.995778	0.961039	0.948718	0.954839	0.880240
+               sci.crypt	0.994572	0.925532	0.887755	0.906250	0.865169
+         sci.electronics	0.965923	0.703704	0.636872	0.668622	0.577381
+                 sci.med	0.986128	0.873134	0.801370	0.835714	0.763780
+               sci.space	0.987636	0.888158	0.849057	0.868167	0.837838
+  soc.religion.christian	0.987334	0.820359	0.919463	0.867089	0.866044
+      talk.politics.guns	0.992461	0.785714	0.846154	0.814815	0.757143
+   talk.politics.mideast	0.993667	0.944882	0.895522	0.919540	0.928058
+      talk.politics.misc	0.978589	0.505155	0.680556	0.579882	0.593939
+      talk.religion.misc	0.977684	0.402985	0.442623	0.421875	0.504202
+
+          Micro-Averaged	0.977021	0.770205	0.770205	0.770205
+          Macro-Averaged	0.977021	0.773048	0.755421	0.760019	0.706911
+
+       Precdiction Score	118.297567	0.035675(avg. per test object)
+
+High-Weighted Tokens:
+
+             alt.atheism	theis, athei, heism, adict, ntrad, radic, bible, jesus, tradi, heist
+           comp.graphics	image, phics, aphic, raphi, graph, ormat, forma, files, onver, mages
+ comp.os.ms-windows.misc	ndows, indow, windo, ax_ax, river, r_win, print, or_wi, for_w, drive
+comp.sys.ibm.pc.hardware	drive, oller, therb, herbo, umper, jumpe, rboar, erboa, troll, board
+   comp.sys.mac.hardware	apple, mac_i, e_mac, ntris, erboo, rbook, werbo, owerb, lciii, ac_ii
+          comp.windows.x	mit_e, it_ed, widge, idget, indow, windo, t_edu, erver, motif, the_x
+            misc.forsale	r_sal, or_sa, for_s, offer, shipp, hippi, ippin, rsale, orsal, forsa
+               rec.autos	e_car, car_i, honda, brake, clutc, lutch, toyot, oyota, nsura, suran
+         rec.motorcycles	o_o_o, torcy, rcycl, otorc, orcyc, e_bik, cycle, motor, bikes, elmet
+      rec.sport.baseball	pitch, tcher, baseb, aseba, sebal, itche, eball, yanke, ankee, games
+        rec.sport.hockey	ockey, hocke, ayoff, playo, layof, score, playe, e_gam, sabre, abres
+               sci.crypt	crypt, encry, ncryp, rypti, yptio, rypto, clipp, ipper, lippe, secur
+         sci.electronics	rcuit, ircui, circu, scope, lectr, troni, baden, chema, volta, sisto
+                 sci.med	medic, disea, iseas, tient, sease, patie, atien, docto, octor, edica
+               sci.space	space, orbit, ace_s, launc, aunch, satel, ellit, atell, llite, c_c_c
+  soc.religion.christian	hrist, chris, istia, stian, risti, s_rut, d_chr, ramis, arami, mis_r
+      talk.politics.guns	irear, firea, rearm, earms, e_fbi, he_fb, weapo, eapon, weave, crime
+   talk.politics.mideast	rmeni, menia, armen, enian, israe, srael, nians, turki, rkish, urkis
+      talk.politics.misc	presi, siden, resid, eside, ident, clint, linto, inton, drugs, e_pre
+      talk.religion.misc	oresh, kores, osicr, rosic, sicru, icruc, mormo, oroas, zoroa, ormon
+
+Collecting classification solution...
+Task Completed.
